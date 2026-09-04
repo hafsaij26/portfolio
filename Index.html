@@ -6,14 +6,6 @@
 <title>Hafsa Ijaz — Software Developer</title>
 <meta name="description" content="Hafsa Ijaz — Full-stack software developer. Portfolio, skills and projects.">
 
-<!--
-  NOTE TO HAFSA — quick things to swap before publishing:
-  1. Replace the initials circle in the About section with a real photo
-     (search "PHOTO PLACEHOLDER" below).
-  2. Replace hafsa.ijaz@example.com with your real email.
-  3. Replace the GitHub / LinkedIn "#" links with your real profile URLs.
-  4. Swap the four project cards for your real projects and links.
--->
 
 <link rel="icon" href="1.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,14 +18,14 @@
     --bg-soft:#faf9fc;
     --ink:#15121c;
     --ink-soft:#615c6d;
-    --ink-faint:#9d97a8;
+    --ink-faint:#5f5e60;
     --line:#eae6f1;
 
-    --violet:#a78bfa;
-    --pink:#f0a3d0;
-    --peach:#ffcf87;
-    --mint:#a6f3b6;
-    --teal:#5fe6cf;
+    --violet:#513f86;
+    --pink:#cd609f;
+    --peach:#e4a84d;
+    --mint:#65e87f;
+    --teal:#3eceb6;
 
     --gradient: linear-gradient(120deg, var(--violet) 0%, var(--pink) 32%, var(--peach) 58%, var(--mint) 78%, var(--teal) 100%);
 
@@ -48,15 +40,19 @@
     *{ animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }
   }
   
-  body{
-    margin:0;
-    background: var(--bg);
-    color: var(--ink);
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
-    -webkit-font-smoothing: antialiased;
-  }
+  body {
+  margin: 0;
+  background: linear-gradient(
+    135deg,
+    #ecf3f9 0%,
+    #f8e5f0 25%,
+    #eadbc4 50%,
+    #dfd8f6 75%,
+    #d9f5f1 100%
+  );
+  background-attachment: fixed;
+  color: var(--ink);
+}
 
   h1,h2,h3{
     font-family: 'Space Grotesk', sans-serif;
@@ -317,7 +313,6 @@
     align-items:center;
     justify-content:center;
   }
-  /* PHOTO PLACEHOLDER — replace this .photo-inner content with <img src="your-photo.jpg" alt="Hafsa Ijaz"> */
   .photo-inner span{
     font-family:'Space Grotesk', sans-serif;
     font-size: 64px;
@@ -326,10 +321,10 @@
   }
 
   .about-copy p{
-    font-size: 16.5px;
+    font-size: 18px;
     color: var(--ink-soft);
-    max-width: 58ch;
-    margin: 0 0 18px;
+    max-width: 62ch;
+    margin: 0 0 20px;
   }
   .about-copy p strong{ color: var(--ink); font-weight: 600; }
 
@@ -1000,7 +995,9 @@ footer .wrap{
           </div>
         </div>
 
-        <div class="about-copy">
+        <div class="about-copy"> 
+          <br>
+          <br>
           <p>I'm a <strong>full-stack developer</strong> who enjoys the whole path from a blank page to a live product. I studied software engineering, but most of what I know came from building things, breaking them, and figuring out why.</p>
           <p>My work spans <strong>web applications, learning cybersecuirty, html and CSS,and AI</strong>, projects where the interface needs to feel simple even when the logic underneath isn't. I write clean, maintainable code and I'd rather ship something solid than something flashy that breaks in production.</p>
           <p>Outside of code, I'm usually reading about design systems, AI automation, or learning something just outside my comfort zone.</p>
@@ -1235,7 +1232,6 @@ The proposed system uses cybersecurity datasets such as Passive DNS data, perfor
     menuBtn.setAttribute('aria-expanded', 'false');
   }));
 </script>
- ```html
 <script>
 const contactForm = document.getElementById("contactForm");
 const formMessage = document.getElementById("formMessage");
