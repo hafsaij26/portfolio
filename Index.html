@@ -360,6 +360,128 @@
     border: 1px solid var(--line);
     color: var(--ink);
   }
+ /* =========================
+   SKILLS
+========================= */
+
+.skill-groups {
+  display: grid;
+  gap: 36px;
+}
+
+.skill-group {
+  padding: 28px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.skill-group h3 {
+  margin: 0 0 18px;
+  font-size: 13px;
+  letter-spacing: .14em;
+  color: var(--muted);
+}
+
+.pill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 9px 16px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  border: none;
+}
+
+
+/* =========================
+   FRONTEND COLORS
+========================= */
+
+.frontend-html {
+  background: #c4daed;
+}
+
+.frontend-css {
+  background: #a78bfa;
+}
+
+.frontend-adobe {
+  background: #f0a3d0;
+}
+
+.frontend-react {
+  background: #ffcf87;
+}
+
+.frontend-vscode {
+  background: #5fe6cf;
+}
+
+
+/* =========================
+   BACKEND COLORS
+========================= */
+
+.backend-node {
+  background: #c4daed;
+}
+
+.backend-rest {
+  background: #a78bfa;
+}
+
+.backend-wordpress {
+  background: #f0a3d0;
+}
+
+
+/* =========================
+   TOOLS COLORS
+========================= */
+
+.tools-git {
+  background: #ffcf87;
+}
+
+.tools-github {
+  background: #5fe6cf;
+}
+
+.tools-vscode {
+  background: #a6f3b6;
+}
+
+.tools-pycharm {
+  background: #d8e193;
+}
+
+.tools-figma {
+  background: #f0a3d0;
+}
+
+.tools-npm {
+  background: #c4daed;
+}
+
+
+/* =========================
+   HOVER EFFECT
+========================= */
+
+.pill {
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.pill:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, .08);
+}
 
   /* ---------- PROJECTS ---------- */
   .project-grid{
@@ -702,11 +824,11 @@ form{
       <div class="skill-group">
         <h3>FRONTEND</h3>
         <div class="pill-list">
-          <span class="pill">HTML</span>
-          <span class="pill">CSS</span>
-          <span class="pill">Adobe XD</span>
-          <span class="pill">React</span>
-          <span class="pill">VS code</span>
+          <span class="pill frontend-html">HTML</span>
+          <span class="pill frontend-css">CSS</span>
+          <span class="pill frontend-adobe">Adobe XD</span>
+          <span class="pill frontend-react">React</span>
+          <span class="pill frontend-vscode">VS Code</span>
         </div>
       </div>
 
@@ -714,9 +836,9 @@ form{
       <div class="skill-group">
         <h3>BACKEND</h3>
         <div class="pill-list">
-          <span class="pill">Node.js</span>
-          <span class="pill">REST APIs</span>
-          <span class="pill">WordPress</span>
+          <span class="pill backend-node">Node.js</span>
+          <span class="pill backend-rest">REST APIs</span>
+          <span class="pill backend-wordpress">WordPress</span>
         </div>
       </div>
 
@@ -724,12 +846,12 @@ form{
       <div class="skill-group">
         <h3>TOOLS</h3>
         <div class="pill-list">
-          <span class="pill">Git</span>
-          <span class="pill">GitHub</span>
-          <span class="pill">VS Code</span>
-          <span class="pill">PyCharm</span>
-          <span class="pill">Figma</span>
-          <span class="pill">npm</span>
+          <span class="pill tools-git">Git</span>
+          <span class="pill tools-github">GitHub</span>
+          <span class="pill tools-vscode">VS Code</span>
+          <span class="pill tools-pycharm">PyCharm</span>
+          <span class="pill tools-figma">Figma</span>
+          <span class="pill tools-npm">npm</span>
         </div>
       </div>
 
