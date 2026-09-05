@@ -1,0 +1,2905 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080" preserveAspectRatio="xMidYMid meet" overflow="hidden" aria-hidden="true">
+
+  <style>
+@keyframes vayro-scatter-float {
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(1920.00px, 0.00px); }
+}
+
+.vayro-scatter-float-1 {
+  animation: vayro-scatter-float calc(25.282s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-13.852s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-2 {
+  animation: vayro-scatter-float calc(24.758s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-2.205s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-3 {
+  animation: vayro-scatter-float calc(23.766s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-21.818s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-4 {
+  animation: vayro-scatter-float calc(10.317s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-2.312s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-5 {
+  animation: vayro-scatter-float calc(27.136s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-9.899s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-6 {
+  animation: vayro-scatter-float calc(12.192s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-11.643s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-7 {
+  animation: vayro-scatter-float calc(27.692s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-13.738s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-8 {
+  animation: vayro-scatter-float calc(11.203s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-5.143s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-9 {
+  animation: vayro-scatter-float calc(19.476s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-14.317s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-10 {
+  animation: vayro-scatter-float calc(26.561s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-21.454s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-11 {
+  animation: vayro-scatter-float calc(26.529s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-18.411s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-12 {
+  animation: vayro-scatter-float calc(14.658s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-5.406s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-13 {
+  animation: vayro-scatter-float calc(12.233s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-0.024s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-14 {
+  animation: vayro-scatter-float calc(16.309s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-3.695s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-15 {
+  animation: vayro-scatter-float calc(15.009s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-6.613s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-16 {
+  animation: vayro-scatter-float calc(13.498s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-6.270s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-17 {
+  animation: vayro-scatter-float calc(21.944s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-13.461s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-18 {
+  animation: vayro-scatter-float calc(22.749s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-20.373s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-19 {
+  animation: vayro-scatter-float calc(12.068s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-5.424s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-20 {
+  animation: vayro-scatter-float calc(18.981s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-3.321s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-21 {
+  animation: vayro-scatter-float calc(16.759s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-6.712s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-22 {
+  animation: vayro-scatter-float calc(28.713s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-15.123s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-23 {
+  animation: vayro-scatter-float calc(28.540s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-0.205s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-24 {
+  animation: vayro-scatter-float calc(12.345s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-8.400s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-25 {
+  animation: vayro-scatter-float calc(28.020s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-18.129s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-26 {
+  animation: vayro-scatter-float calc(25.051s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-16.883s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-27 {
+  animation: vayro-scatter-float calc(16.903s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-1.240s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-28 {
+  animation: vayro-scatter-float calc(28.987s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-1.435s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-29 {
+  animation: vayro-scatter-float calc(26.117s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-9.110s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-30 {
+  animation: vayro-scatter-float calc(25.895s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-10.451s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-31 {
+  animation: vayro-scatter-float calc(18.728s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-18.540s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-32 {
+  animation: vayro-scatter-float calc(20.387s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-10.256s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-33 {
+  animation: vayro-scatter-float calc(19.739s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-9.050s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-34 {
+  animation: vayro-scatter-float calc(17.591s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-3.779s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-35 {
+  animation: vayro-scatter-float calc(19.823s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-2.128s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-36 {
+  animation: vayro-scatter-float calc(11.465s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-4.004s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-37 {
+  animation: vayro-scatter-float calc(13.325s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-5.883s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-38 {
+  animation: vayro-scatter-float calc(27.813s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-1.443s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-39 {
+  animation: vayro-scatter-float calc(16.200s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-4.398s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-40 {
+  animation: vayro-scatter-float calc(25.471s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-3.009s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-41 {
+  animation: vayro-scatter-float calc(16.093s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-2.660s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-42 {
+  animation: vayro-scatter-float calc(24.461s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-3.923s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-43 {
+  animation: vayro-scatter-float calc(16.667s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-13.445s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-44 {
+  animation: vayro-scatter-float calc(23.871s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-11.663s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-45 {
+  animation: vayro-scatter-float calc(23.738s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-15.451s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-46 {
+  animation: vayro-scatter-float calc(28.198s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-7.896s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-47 {
+  animation: vayro-scatter-float calc(27.193s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-8.531s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-48 {
+  animation: vayro-scatter-float calc(26.269s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-3.429s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-49 {
+  animation: vayro-scatter-float calc(20.903s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-12.851s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-50 {
+  animation: vayro-scatter-float calc(11.261s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-1.067s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-51 {
+  animation: vayro-scatter-float calc(14.553s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-9.116s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-52 {
+  animation: vayro-scatter-float calc(21.493s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-9.148s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-53 {
+  animation: vayro-scatter-float calc(15.431s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-13.504s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-54 {
+  animation: vayro-scatter-float calc(10.704s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-2.627s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-55 {
+  animation: vayro-scatter-float calc(17.079s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-7.840s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-56 {
+  animation: vayro-scatter-float calc(26.287s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-1.130s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-57 {
+  animation: vayro-scatter-float calc(14.581s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-13.018s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-58 {
+  animation: vayro-scatter-float calc(21.220s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-15.826s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-59 {
+  animation: vayro-scatter-float calc(16.991s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-10.498s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-60 {
+  animation: vayro-scatter-float calc(22.341s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-8.515s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-61 {
+  animation: vayro-scatter-float calc(29.627s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-18.748s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-62 {
+  animation: vayro-scatter-float calc(27.139s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-23.630s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-63 {
+  animation: vayro-scatter-float calc(22.461s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-8.330s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-64 {
+  animation: vayro-scatter-float calc(10.947s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-9.334s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-65 {
+  animation: vayro-scatter-float calc(14.899s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-10.714s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-66 {
+  animation: vayro-scatter-float calc(25.465s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-2.903s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-67 {
+  animation: vayro-scatter-float calc(25.252s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-24.303s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-68 {
+  animation: vayro-scatter-float calc(21.314s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-0.591s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-69 {
+  animation: vayro-scatter-float calc(11.762s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-6.276s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-70 {
+  animation: vayro-scatter-float calc(14.386s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-9.171s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-71 {
+  animation: vayro-scatter-float calc(11.743s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-1.772s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-72 {
+  animation: vayro-scatter-float calc(25.394s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-10.127s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-73 {
+  animation: vayro-scatter-float calc(22.434s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-15.517s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-74 {
+  animation: vayro-scatter-float calc(13.443s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-1.929s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-75 {
+  animation: vayro-scatter-float calc(24.280s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-21.618s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-76 {
+  animation: vayro-scatter-float calc(22.936s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-0.477s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-77 {
+  animation: vayro-scatter-float calc(24.169s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-21.365s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-78 {
+  animation: vayro-scatter-float calc(13.391s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-0.549s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-79 {
+  animation: vayro-scatter-float calc(16.996s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-3.023s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-80 {
+  animation: vayro-scatter-float calc(12.332s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-8.289s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-81 {
+  animation: vayro-scatter-float calc(18.275s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-7.774s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-82 {
+  animation: vayro-scatter-float calc(20.558s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-0.859s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-83 {
+  animation: vayro-scatter-float calc(12.111s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-7.596s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-84 {
+  animation: vayro-scatter-float calc(21.066s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-8.242s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-85 {
+  animation: vayro-scatter-float calc(19.083s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-2.351s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-86 {
+  animation: vayro-scatter-float calc(15.012s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-14.892s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-87 {
+  animation: vayro-scatter-float calc(18.052s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-1.420s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-88 {
+  animation: vayro-scatter-float calc(9.951s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-8.780s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-89 {
+  animation: vayro-scatter-float calc(10.318s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-0.667s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-90 {
+  animation: vayro-scatter-float calc(14.222s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-10.729s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-91 {
+  animation: vayro-scatter-float calc(13.209s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-11.311s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-92 {
+  animation: vayro-scatter-float calc(21.194s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-18.792s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-93 {
+  animation: vayro-scatter-float calc(29.559s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-24.893s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-94 {
+  animation: vayro-scatter-float calc(21.006s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-13.210s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-95 {
+  animation: vayro-scatter-float calc(21.013s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-2.137s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-96 {
+  animation: vayro-scatter-float calc(14.438s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-6.148s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-97 {
+  animation: vayro-scatter-float calc(12.322s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-6.578s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-98 {
+  animation: vayro-scatter-float calc(11.998s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-1.603s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-99 {
+  animation: vayro-scatter-float calc(24.141s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-20.299s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-100 {
+  animation: vayro-scatter-float calc(9.915s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-1.978s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-101 {
+  animation: vayro-scatter-float calc(16.591s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-7.693s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-102 {
+  animation: vayro-scatter-float calc(21.115s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-0.323s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-103 {
+  animation: vayro-scatter-float calc(22.483s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-9.268s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-104 {
+  animation: vayro-scatter-float calc(16.483s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-5.476s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-105 {
+  animation: vayro-scatter-float calc(12.049s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-9.590s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-106 {
+  animation: vayro-scatter-float calc(25.673s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-12.392s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-107 {
+  animation: vayro-scatter-float calc(12.171s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-8.475s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-108 {
+  animation: vayro-scatter-float calc(11.439s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-5.335s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-109 {
+  animation: vayro-scatter-float calc(13.461s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-3.353s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-110 {
+  animation: vayro-scatter-float calc(16.898s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-12.505s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-111 {
+  animation: vayro-scatter-float calc(21.092s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-8.137s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-112 {
+  animation: vayro-scatter-float calc(27.153s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-17.523s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-113 {
+  animation: vayro-scatter-float calc(13.539s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-7.557s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-114 {
+  animation: vayro-scatter-float calc(20.047s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-17.125s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-115 {
+  animation: vayro-scatter-float calc(20.537s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-12.788s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-116 {
+  animation: vayro-scatter-float calc(18.875s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-6.227s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-117 {
+  animation: vayro-scatter-float calc(20.467s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-4.319s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-118 {
+  animation: vayro-scatter-float calc(25.356s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-1.692s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-119 {
+  animation: vayro-scatter-float calc(14.103s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-12.590s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+.vayro-scatter-float-120 {
+  animation: vayro-scatter-float calc(12.529s * var(--vayro-scatter-speed, 1)) linear infinite;
+  animation-delay: calc(-5.550s * var(--vayro-scatter-speed, 1));
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-1 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-1 {
+  animation: vayro-scatter-rotate-1 18.144s linear infinite;
+  animation-delay: -2.837s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-2 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-2 {
+  animation: vayro-scatter-rotate-2 12.322s linear infinite;
+  animation-delay: -3.197s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-3 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-3 {
+  animation: vayro-scatter-rotate-3 15.662s linear infinite;
+  animation-delay: -1.188s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-4 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-4 {
+  animation: vayro-scatter-rotate-4 6.573s linear infinite;
+  animation-delay: -3.442s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-5 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-5 {
+  animation: vayro-scatter-rotate-5 9.320s linear infinite;
+  animation-delay: -1.949s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-6 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-6 {
+  animation: vayro-scatter-rotate-6 22.475s linear infinite;
+  animation-delay: -2.917s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-7 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-7 {
+  animation: vayro-scatter-rotate-7 11.262s linear infinite;
+  animation-delay: -3.629s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-8 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-8 {
+  animation: vayro-scatter-rotate-8 14.280s linear infinite;
+  animation-delay: -1.934s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-9 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-9 {
+  animation: vayro-scatter-rotate-9 19.488s linear infinite;
+  animation-delay: -0.532s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-10 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-10 {
+  animation: vayro-scatter-rotate-10 16.230s linear infinite;
+  animation-delay: -0.174s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-11 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-11 {
+  animation: vayro-scatter-rotate-11 15.365s linear infinite;
+  animation-delay: -2.119s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-12 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-12 {
+  animation: vayro-scatter-rotate-12 22.589s linear infinite;
+  animation-delay: -3.291s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-13 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-13 {
+  animation: vayro-scatter-rotate-13 9.155s linear infinite;
+  animation-delay: -3.485s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-14 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-14 {
+  animation: vayro-scatter-rotate-14 8.262s linear infinite;
+  animation-delay: -1.245s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-15 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-15 {
+  animation: vayro-scatter-rotate-15 12.409s linear infinite;
+  animation-delay: -0.906s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-16 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-16 {
+  animation: vayro-scatter-rotate-16 9.568s linear infinite;
+  animation-delay: -1.838s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-17 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-17 {
+  animation: vayro-scatter-rotate-17 10.338s linear infinite;
+  animation-delay: -0.144s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-18 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-18 {
+  animation: vayro-scatter-rotate-18 20.115s linear infinite;
+  animation-delay: -1.712s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-19 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-19 {
+  animation: vayro-scatter-rotate-19 17.789s linear infinite;
+  animation-delay: -2.301s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-20 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-20 {
+  animation: vayro-scatter-rotate-20 17.303s linear infinite;
+  animation-delay: -3.332s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-21 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-21 {
+  animation: vayro-scatter-rotate-21 8.344s linear infinite;
+  animation-delay: -0.394s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-22 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-22 {
+  animation: vayro-scatter-rotate-22 8.558s linear infinite;
+  animation-delay: -3.578s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-23 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-23 {
+  animation: vayro-scatter-rotate-23 11.071s linear infinite;
+  animation-delay: -2.266s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-24 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-24 {
+  animation: vayro-scatter-rotate-24 12.076s linear infinite;
+  animation-delay: -0.106s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-25 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-25 {
+  animation: vayro-scatter-rotate-25 20.374s linear infinite;
+  animation-delay: -2.332s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-26 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-26 {
+  animation: vayro-scatter-rotate-26 13.095s linear infinite;
+  animation-delay: -0.386s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-27 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-27 {
+  animation: vayro-scatter-rotate-27 21.499s linear infinite;
+  animation-delay: -3.403s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-28 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-28 {
+  animation: vayro-scatter-rotate-28 9.326s linear infinite;
+  animation-delay: -0.622s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-29 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-29 {
+  animation: vayro-scatter-rotate-29 16.197s linear infinite;
+  animation-delay: -0.625s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-30 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-30 {
+  animation: vayro-scatter-rotate-30 14.551s linear infinite;
+  animation-delay: -2.837s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-31 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-31 {
+  animation: vayro-scatter-rotate-31 13.378s linear infinite;
+  animation-delay: -2.708s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-32 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-32 {
+  animation: vayro-scatter-rotate-32 7.675s linear infinite;
+  animation-delay: -3.167s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-33 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-33 {
+  animation: vayro-scatter-rotate-33 11.425s linear infinite;
+  animation-delay: -1.455s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-34 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-34 {
+  animation: vayro-scatter-rotate-34 19.626s linear infinite;
+  animation-delay: -2.258s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-35 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-35 {
+  animation: vayro-scatter-rotate-35 16.286s linear infinite;
+  animation-delay: -0.552s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-36 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-36 {
+  animation: vayro-scatter-rotate-36 12.856s linear infinite;
+  animation-delay: -1.431s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-37 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-37 {
+  animation: vayro-scatter-rotate-37 18.295s linear infinite;
+  animation-delay: -2.078s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-38 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-38 {
+  animation: vayro-scatter-rotate-38 8.345s linear infinite;
+  animation-delay: -1.228s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-39 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-39 {
+  animation: vayro-scatter-rotate-39 18.011s linear infinite;
+  animation-delay: -1.161s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-40 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-40 {
+  animation: vayro-scatter-rotate-40 14.054s linear infinite;
+  animation-delay: -3.343s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-41 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-41 {
+  animation: vayro-scatter-rotate-41 13.604s linear infinite;
+  animation-delay: -2.202s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-42 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-42 {
+  animation: vayro-scatter-rotate-42 21.404s linear infinite;
+  animation-delay: -3.022s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-43 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-43 {
+  animation: vayro-scatter-rotate-43 9.109s linear infinite;
+  animation-delay: -1.336s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-44 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-44 {
+  animation: vayro-scatter-rotate-44 9.406s linear infinite;
+  animation-delay: -3.970s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-45 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-45 {
+  animation: vayro-scatter-rotate-45 16.049s linear infinite;
+  animation-delay: -0.113s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-46 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-46 {
+  animation: vayro-scatter-rotate-46 21.539s linear infinite;
+  animation-delay: -1.336s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-47 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-47 {
+  animation: vayro-scatter-rotate-47 6.636s linear infinite;
+  animation-delay: -0.519s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-48 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-48 {
+  animation: vayro-scatter-rotate-48 18.566s linear infinite;
+  animation-delay: -1.812s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-49 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-49 {
+  animation: vayro-scatter-rotate-49 19.618s linear infinite;
+  animation-delay: -3.163s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-50 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-50 {
+  animation: vayro-scatter-rotate-50 21.627s linear infinite;
+  animation-delay: -0.617s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-51 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-51 {
+  animation: vayro-scatter-rotate-51 6.929s linear infinite;
+  animation-delay: -0.110s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-52 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-52 {
+  animation: vayro-scatter-rotate-52 14.440s linear infinite;
+  animation-delay: -1.011s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-53 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-53 {
+  animation: vayro-scatter-rotate-53 21.358s linear infinite;
+  animation-delay: -3.116s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-54 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-54 {
+  animation: vayro-scatter-rotate-54 20.959s linear infinite;
+  animation-delay: -2.799s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-55 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-55 {
+  animation: vayro-scatter-rotate-55 6.305s linear infinite;
+  animation-delay: -2.357s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-56 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-56 {
+  animation: vayro-scatter-rotate-56 22.423s linear infinite;
+  animation-delay: -1.552s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-57 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-57 {
+  animation: vayro-scatter-rotate-57 19.695s linear infinite;
+  animation-delay: -3.993s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-58 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-58 {
+  animation: vayro-scatter-rotate-58 14.763s linear infinite;
+  animation-delay: -2.859s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-59 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-59 {
+  animation: vayro-scatter-rotate-59 15.063s linear infinite;
+  animation-delay: -1.803s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-60 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-60 {
+  animation: vayro-scatter-rotate-60 12.500s linear infinite;
+  animation-delay: -1.420s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-61 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-61 {
+  animation: vayro-scatter-rotate-61 13.472s linear infinite;
+  animation-delay: -3.285s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-62 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-62 {
+  animation: vayro-scatter-rotate-62 12.129s linear infinite;
+  animation-delay: -3.183s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-63 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-63 {
+  animation: vayro-scatter-rotate-63 11.489s linear infinite;
+  animation-delay: -0.112s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-64 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-64 {
+  animation: vayro-scatter-rotate-64 15.746s linear infinite;
+  animation-delay: -3.943s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-65 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-65 {
+  animation: vayro-scatter-rotate-65 6.909s linear infinite;
+  animation-delay: -1.640s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-66 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-66 {
+  animation: vayro-scatter-rotate-66 20.322s linear infinite;
+  animation-delay: -0.390s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-67 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-67 {
+  animation: vayro-scatter-rotate-67 19.123s linear infinite;
+  animation-delay: -2.754s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-68 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-68 {
+  animation: vayro-scatter-rotate-68 6.071s linear infinite;
+  animation-delay: -3.668s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-69 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-69 {
+  animation: vayro-scatter-rotate-69 6.995s linear infinite;
+  animation-delay: -3.801s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-70 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-70 {
+  animation: vayro-scatter-rotate-70 12.584s linear infinite;
+  animation-delay: -3.506s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-71 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-71 {
+  animation: vayro-scatter-rotate-71 12.815s linear infinite;
+  animation-delay: -3.049s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-72 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-72 {
+  animation: vayro-scatter-rotate-72 21.724s linear infinite;
+  animation-delay: -1.123s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-73 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-73 {
+  animation: vayro-scatter-rotate-73 15.784s linear infinite;
+  animation-delay: -3.232s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-74 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-74 {
+  animation: vayro-scatter-rotate-74 8.207s linear infinite;
+  animation-delay: -2.709s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-75 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-75 {
+  animation: vayro-scatter-rotate-75 19.950s linear infinite;
+  animation-delay: -0.034s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-76 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-76 {
+  animation: vayro-scatter-rotate-76 16.509s linear infinite;
+  animation-delay: -3.001s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-77 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-77 {
+  animation: vayro-scatter-rotate-77 6.996s linear infinite;
+  animation-delay: -3.692s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-78 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-78 {
+  animation: vayro-scatter-rotate-78 20.732s linear infinite;
+  animation-delay: -0.675s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-79 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-79 {
+  animation: vayro-scatter-rotate-79 8.184s linear infinite;
+  animation-delay: -2.476s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-80 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-80 {
+  animation: vayro-scatter-rotate-80 20.611s linear infinite;
+  animation-delay: -3.526s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-81 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-81 {
+  animation: vayro-scatter-rotate-81 5.482s linear infinite;
+  animation-delay: -2.362s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-82 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-82 {
+  animation: vayro-scatter-rotate-82 14.266s linear infinite;
+  animation-delay: -0.436s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-83 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-83 {
+  animation: vayro-scatter-rotate-83 22.039s linear infinite;
+  animation-delay: -0.483s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-84 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-84 {
+  animation: vayro-scatter-rotate-84 4.660s linear infinite;
+  animation-delay: -3.542s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-85 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-85 {
+  animation: vayro-scatter-rotate-85 20.845s linear infinite;
+  animation-delay: -0.094s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-86 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-86 {
+  animation: vayro-scatter-rotate-86 15.548s linear infinite;
+  animation-delay: -3.929s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-87 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-87 {
+  animation: vayro-scatter-rotate-87 9.097s linear infinite;
+  animation-delay: -1.297s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-88 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-88 {
+  animation: vayro-scatter-rotate-88 22.469s linear infinite;
+  animation-delay: -3.509s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-89 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-89 {
+  animation: vayro-scatter-rotate-89 22.629s linear infinite;
+  animation-delay: -2.832s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-90 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-90 {
+  animation: vayro-scatter-rotate-90 16.891s linear infinite;
+  animation-delay: -3.984s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-91 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-91 {
+  animation: vayro-scatter-rotate-91 14.332s linear infinite;
+  animation-delay: -1.226s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-92 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-92 {
+  animation: vayro-scatter-rotate-92 12.443s linear infinite;
+  animation-delay: -0.444s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-93 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-93 {
+  animation: vayro-scatter-rotate-93 21.602s linear infinite;
+  animation-delay: -1.735s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-94 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-94 {
+  animation: vayro-scatter-rotate-94 15.115s linear infinite;
+  animation-delay: -3.485s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-95 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-95 {
+  animation: vayro-scatter-rotate-95 5.357s linear infinite;
+  animation-delay: -3.160s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-96 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-96 {
+  animation: vayro-scatter-rotate-96 16.395s linear infinite;
+  animation-delay: -2.673s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-97 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-97 {
+  animation: vayro-scatter-rotate-97 19.583s linear infinite;
+  animation-delay: -2.100s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-98 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-98 {
+  animation: vayro-scatter-rotate-98 12.167s linear infinite;
+  animation-delay: -2.176s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-99 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-99 {
+  animation: vayro-scatter-rotate-99 22.736s linear infinite;
+  animation-delay: -2.688s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-100 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-100 {
+  animation: vayro-scatter-rotate-100 16.354s linear infinite;
+  animation-delay: -2.672s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-101 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-101 {
+  animation: vayro-scatter-rotate-101 11.740s linear infinite;
+  animation-delay: -2.491s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-102 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-102 {
+  animation: vayro-scatter-rotate-102 12.689s linear infinite;
+  animation-delay: -0.635s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-103 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-103 {
+  animation: vayro-scatter-rotate-103 5.401s linear infinite;
+  animation-delay: -3.719s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-104 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-104 {
+  animation: vayro-scatter-rotate-104 12.325s linear infinite;
+  animation-delay: -2.613s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-105 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-105 {
+  animation: vayro-scatter-rotate-105 16.289s linear infinite;
+  animation-delay: -0.621s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-106 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-106 {
+  animation: vayro-scatter-rotate-106 16.016s linear infinite;
+  animation-delay: -1.953s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-107 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-107 {
+  animation: vayro-scatter-rotate-107 16.638s linear infinite;
+  animation-delay: -1.214s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-108 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-108 {
+  animation: vayro-scatter-rotate-108 20.812s linear infinite;
+  animation-delay: -1.325s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-109 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-109 {
+  animation: vayro-scatter-rotate-109 13.937s linear infinite;
+  animation-delay: -0.267s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-110 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-110 {
+  animation: vayro-scatter-rotate-110 19.023s linear infinite;
+  animation-delay: -1.116s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-111 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-111 {
+  animation: vayro-scatter-rotate-111 16.806s linear infinite;
+  animation-delay: -3.943s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-112 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-112 {
+  animation: vayro-scatter-rotate-112 8.842s linear infinite;
+  animation-delay: -2.771s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-113 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-113 {
+  animation: vayro-scatter-rotate-113 12.381s linear infinite;
+  animation-delay: -0.579s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-114 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-114 {
+  animation: vayro-scatter-rotate-114 18.631s linear infinite;
+  animation-delay: -1.011s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-115 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-115 {
+  animation: vayro-scatter-rotate-115 5.565s linear infinite;
+  animation-delay: -3.804s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-116 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-116 {
+  animation: vayro-scatter-rotate-116 17.673s linear infinite;
+  animation-delay: -0.211s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-117 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-117 {
+  animation: vayro-scatter-rotate-117 20.198s linear infinite;
+  animation-delay: -3.356s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-118 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-118 {
+  animation: vayro-scatter-rotate-118 14.144s linear infinite;
+  animation-delay: -3.954s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-119 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-119 {
+  animation: vayro-scatter-rotate-119 19.204s linear infinite;
+  animation-delay: -2.614s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes vayro-scatter-rotate-120 {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.vayro-scatter-rotate-120 {
+  animation: vayro-scatter-rotate-120 12.876s linear infinite;
+  animation-delay: -3.340s;
+  animation-play-state: var(--vayro-scatter-play-state, running);
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [class*="vayro-scatter-float-"],
+  [class*="vayro-scatter-pulse-"],
+  [class*="vayro-scatter-drift-"],
+  [class*="vayro-scatter-rotate-"] {
+    animation: none !important;
+  }
+}
+
+  </style>
+  <defs>
+    <clipPath id="vayro-scatter-clip"><rect width="1920" height="1080"/></clipPath>
+  </defs>
+  <rect x="0" y="0" width="100%" height="100%" fill="#8a1356"/>
+  <g clip-path="url(#vayro-scatter-clip)">
+    <g class="vayro-scatter-float-1">
+      <g transform="translate(36.59 45.96) rotate(31.47)"><g class="vayro-scatter-shape vayro-scatter-shape-1 vayro-scatter-rotate-1"><path d="M 0.00 -8.91 L 2.09 -2.88 L 8.47 -2.75 L 3.39 1.10 L 5.24 7.21 L 0.00 3.56 L -5.24 7.21 L -3.39 1.10 L -8.47 -2.75 L -2.09 -2.88 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-1883.41 45.96) rotate(31.47)"><g class="vayro-scatter-shape vayro-scatter-shape-1 vayro-scatter-rotate-1"><path d="M 0.00 -8.91 L 2.09 -2.88 L 8.47 -2.75 L 3.39 1.10 L 5.24 7.21 L 0.00 3.56 L -5.24 7.21 L -3.39 1.10 L -8.47 -2.75 L -2.09 -2.88 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-2">
+      <g transform="translate(240.21 81.33) rotate(328.28)"><g class="vayro-scatter-shape vayro-scatter-shape-2 vayro-scatter-rotate-2"><circle cx="0" cy="0" r="10.52" fill="#6ed8eb" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-1679.79 81.33) rotate(328.28)"><g class="vayro-scatter-shape vayro-scatter-shape-2 vayro-scatter-rotate-2"><circle cx="0" cy="0" r="10.52" fill="#6ed8eb" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-3">
+      <g transform="translate(281.96 47.97) rotate(102.99)"><g class="vayro-scatter-shape vayro-scatter-shape-3 vayro-scatter-rotate-3"><path d="M 0.00 -13.28 L 3.12 -4.30 L 12.63 -4.10 L 5.05 1.64 L 7.80 10.74 L 0.00 5.31 L -7.80 10.74 L -5.05 1.64 L -12.63 -4.10 L -3.12 -4.30 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.06" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-1638.04 47.97) rotate(102.99)"><g class="vayro-scatter-shape vayro-scatter-shape-3 vayro-scatter-rotate-3"><path d="M 0.00 -13.28 L 3.12 -4.30 L 12.63 -4.10 L 5.05 1.64 L 7.80 10.74 L 0.00 5.31 L -7.80 10.74 L -5.05 1.64 L -12.63 -4.10 L -3.12 -4.30 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.06" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-4">
+      <g transform="translate(480.02 91.26) rotate(150.83)"><g class="vayro-scatter-shape vayro-scatter-shape-4 vayro-scatter-rotate-4"><circle cx="0" cy="0" r="12.39" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-1439.98 91.26) rotate(150.83)"><g class="vayro-scatter-shape vayro-scatter-shape-4 vayro-scatter-rotate-4"><circle cx="0" cy="0" r="12.39" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-5">
+      <g transform="translate(554.70 62.90) rotate(221.81)"><g class="vayro-scatter-shape vayro-scatter-shape-5 vayro-scatter-rotate-5"><path d="M 0.00 -13.09 L 3.08 -4.24 L 12.45 -4.05 L 4.98 1.62 L 7.69 10.59 L 0.00 5.24 L -7.69 10.59 L -4.98 1.62 L -12.45 -4.05 L -3.08 -4.24 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-1365.30 62.90) rotate(221.81)"><g class="vayro-scatter-shape vayro-scatter-shape-5 vayro-scatter-rotate-5"><path d="M 0.00 -13.09 L 3.08 -4.24 L 12.45 -4.05 L 4.98 1.62 L 7.69 10.59 L 0.00 5.24 L -7.69 10.59 L -4.98 1.62 L -12.45 -4.05 L -3.08 -4.24 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-6">
+      <g transform="translate(696.07 39.49) rotate(283.52)"><g class="vayro-scatter-shape vayro-scatter-shape-6 vayro-scatter-rotate-6"><circle cx="0" cy="0" r="10.78" fill="#6ed8eb" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-1223.93 39.49) rotate(283.52)"><g class="vayro-scatter-shape vayro-scatter-shape-6 vayro-scatter-rotate-6"><circle cx="0" cy="0" r="10.78" fill="#6ed8eb" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-7">
+      <g transform="translate(790.02 64.95) rotate(203.35)"><g class="vayro-scatter-shape vayro-scatter-shape-7 vayro-scatter-rotate-7"><path d="M 0.00 -6.64 L 1.56 -2.15 L 6.31 -2.05 L 2.52 0.82 L 3.90 5.37 L 0.00 2.65 L -3.90 5.37 L -2.52 0.82 L -6.31 -2.05 L -1.56 -2.15 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-1129.98 64.95) rotate(203.35)"><g class="vayro-scatter-shape vayro-scatter-shape-7 vayro-scatter-rotate-7"><path d="M 0.00 -6.64 L 1.56 -2.15 L 6.31 -2.05 L 2.52 0.82 L 3.90 5.37 L 0.00 2.65 L -3.90 5.37 L -2.52 0.82 L -6.31 -2.05 L -1.56 -2.15 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-8">
+      <g transform="translate(923.51 81.12) rotate(287.94)"><g class="vayro-scatter-shape vayro-scatter-shape-8 vayro-scatter-rotate-8"><circle cx="0" cy="0" r="10.13" fill="#e3e386" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-996.49 81.12) rotate(287.94)"><g class="vayro-scatter-shape vayro-scatter-shape-8 vayro-scatter-rotate-8"><circle cx="0" cy="0" r="10.13" fill="#e3e386" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-9">
+      <g transform="translate(1078.08 71.71) rotate(27.60)"><g class="vayro-scatter-shape vayro-scatter-shape-9 vayro-scatter-rotate-9"><path d="M 0.00 -9.18 L 2.16 -2.97 L 8.73 -2.84 L 3.49 1.13 L 5.39 7.42 L 0.00 3.67 L -5.39 7.42 L -3.49 1.13 L -8.73 -2.84 L -2.16 -2.97 Z" fill="none" stroke="#f084ba" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-841.92 71.71) rotate(27.60)"><g class="vayro-scatter-shape vayro-scatter-shape-9 vayro-scatter-rotate-9"><path d="M 0.00 -9.18 L 2.16 -2.97 L 8.73 -2.84 L 3.49 1.13 L 5.39 7.42 L 0.00 3.67 L -5.39 7.42 L -3.49 1.13 L -8.73 -2.84 L -2.16 -2.97 Z" fill="none" stroke="#f084ba" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-10">
+      <g transform="translate(1189.38 80.18) rotate(296.08)"><g class="vayro-scatter-shape vayro-scatter-shape-10 vayro-scatter-rotate-10"><circle cx="0" cy="0" r="9.73" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-730.62 80.18) rotate(296.08)"><g class="vayro-scatter-shape vayro-scatter-shape-10 vayro-scatter-rotate-10"><circle cx="0" cy="0" r="9.73" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-11">
+      <g transform="translate(1383.56 63.85) rotate(194.43)"><g class="vayro-scatter-shape vayro-scatter-shape-11 vayro-scatter-rotate-11"><path d="M 0.00 -4.12 L 0.97 -1.33 L 3.92 -1.27 L 1.57 0.51 L 2.42 3.33 L 0.00 1.65 L -2.42 3.33 L -1.57 0.51 L -3.92 -1.27 L -0.97 -1.33 Z" fill="#c253b3" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-536.44 63.85) rotate(194.43)"><g class="vayro-scatter-shape vayro-scatter-shape-11 vayro-scatter-rotate-11"><path d="M 0.00 -4.12 L 0.97 -1.33 L 3.92 -1.27 L 1.57 0.51 L 2.42 3.33 L 0.00 1.65 L -2.42 3.33 L -1.57 0.51 L -3.92 -1.27 L -0.97 -1.33 Z" fill="#c253b3" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-12">
+      <g transform="translate(1480.26 41.09) rotate(132.07)"><g class="vayro-scatter-shape vayro-scatter-shape-12 vayro-scatter-rotate-12"><circle cx="0" cy="0" r="7.92" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-439.74 41.09) rotate(132.07)"><g class="vayro-scatter-shape vayro-scatter-shape-12 vayro-scatter-rotate-12"><circle cx="0" cy="0" r="7.92" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-13">
+      <g transform="translate(1566.38 41.24) rotate(312.52)"><g class="vayro-scatter-shape vayro-scatter-shape-13 vayro-scatter-rotate-13"><path d="M 0.00 -6.54 L 1.54 -2.11 L 6.22 -2.02 L 2.49 0.81 L 3.84 5.29 L 0.00 2.61 L -3.84 5.29 L -2.49 0.81 L -6.22 -2.02 L -1.54 -2.11 Z" fill="none" stroke="#f084ba" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-353.62 41.24) rotate(312.52)"><g class="vayro-scatter-shape vayro-scatter-shape-13 vayro-scatter-rotate-13"><path d="M 0.00 -6.54 L 1.54 -2.11 L 6.22 -2.02 L 2.49 0.81 L 3.84 5.29 L 0.00 2.61 L -3.84 5.29 L -2.49 0.81 L -6.22 -2.02 L -1.54 -2.11 Z" fill="none" stroke="#f084ba" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-14">
+      <g transform="translate(1685.56 116.11) rotate(138.65)"><g class="vayro-scatter-shape vayro-scatter-shape-14 vayro-scatter-rotate-14"><circle cx="0" cy="0" r="4.24" fill="#6ed8eb" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-234.44 116.11) rotate(138.65)"><g class="vayro-scatter-shape vayro-scatter-shape-14 vayro-scatter-rotate-14"><circle cx="0" cy="0" r="4.24" fill="#6ed8eb" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-15">
+      <g transform="translate(1883.94 119.95) rotate(75.50)"><g class="vayro-scatter-shape vayro-scatter-shape-15 vayro-scatter-rotate-15"><path d="M 0.00 -9.62 L 2.26 -3.11 L 9.15 -2.97 L 3.66 1.19 L 5.65 7.78 L 0.00 3.85 L -5.65 7.78 L -3.66 1.19 L -9.15 -2.97 L -2.26 -3.11 Z" fill="#c253b3" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-36.06 119.95) rotate(75.50)"><g class="vayro-scatter-shape vayro-scatter-shape-15 vayro-scatter-rotate-15"><path d="M 0.00 -9.62 L 2.26 -3.11 L 9.15 -2.97 L 3.66 1.19 L 5.65 7.78 L 0.00 3.85 L -5.65 7.78 L -3.66 1.19 L -9.15 -2.97 L -2.26 -3.11 Z" fill="#c253b3" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-16">
+      <g transform="translate(99.70 223.97) rotate(247.25)"><g class="vayro-scatter-shape vayro-scatter-shape-16 vayro-scatter-rotate-16"><circle cx="0" cy="0" r="10.34" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-1820.30 223.97) rotate(247.25)"><g class="vayro-scatter-shape vayro-scatter-shape-16 vayro-scatter-rotate-16"><circle cx="0" cy="0" r="10.34" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-17">
+      <g transform="translate(233.80 153.32) rotate(226.82)"><g class="vayro-scatter-shape vayro-scatter-shape-17 vayro-scatter-rotate-17"><path d="M 0.00 -6.46 L 1.52 -2.09 L 6.15 -2.00 L 2.46 0.80 L 3.80 5.23 L 0.00 2.59 L -3.80 5.23 L -2.46 0.80 L -6.15 -2.00 L -1.52 -2.09 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-1686.20 153.32) rotate(226.82)"><g class="vayro-scatter-shape vayro-scatter-shape-17 vayro-scatter-rotate-17"><path d="M 0.00 -6.46 L 1.52 -2.09 L 6.15 -2.00 L 2.46 0.80 L 3.80 5.23 L 0.00 2.59 L -3.80 5.23 L -2.46 0.80 L -6.15 -2.00 L -1.52 -2.09 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-18">
+      <g transform="translate(366.74 159.40) rotate(141.10)"><g class="vayro-scatter-shape vayro-scatter-shape-18 vayro-scatter-rotate-18"><circle cx="0" cy="0" r="11.02" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-1553.26 159.40) rotate(141.10)"><g class="vayro-scatter-shape vayro-scatter-shape-18 vayro-scatter-rotate-18"><circle cx="0" cy="0" r="11.02" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-19">
+      <g transform="translate(486.70 153.65) rotate(248.55)"><g class="vayro-scatter-shape vayro-scatter-shape-19 vayro-scatter-rotate-19"><path d="M 0.00 -12.07 L 2.84 -3.91 L 11.48 -3.73 L 4.59 1.49 L 7.10 9.77 L 0.00 4.83 L -7.10 9.77 L -4.59 1.49 L -11.48 -3.73 L -2.84 -3.91 Z" fill="#c253b3" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-1433.30 153.65) rotate(248.55)"><g class="vayro-scatter-shape vayro-scatter-shape-19 vayro-scatter-rotate-19"><path d="M 0.00 -12.07 L 2.84 -3.91 L 11.48 -3.73 L 4.59 1.49 L 7.10 9.77 L 0.00 4.83 L -7.10 9.77 L -4.59 1.49 L -11.48 -3.73 L -2.84 -3.91 Z" fill="#c253b3" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-20">
+      <g transform="translate(618.36 182.75) rotate(107.53)"><g class="vayro-scatter-shape vayro-scatter-shape-20 vayro-scatter-rotate-20"><circle cx="0" cy="0" r="3.54" fill="#e3e386" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-1301.64 182.75) rotate(107.53)"><g class="vayro-scatter-shape vayro-scatter-shape-20 vayro-scatter-rotate-20"><circle cx="0" cy="0" r="3.54" fill="#e3e386" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-21">
+      <g transform="translate(743.67 211.23) rotate(86.76)"><g class="vayro-scatter-shape vayro-scatter-shape-21 vayro-scatter-rotate-21"><path d="M 0.00 -3.43 L 0.81 -1.11 L 3.26 -1.06 L 1.31 0.42 L 2.02 2.78 L 0.00 1.37 L -2.02 2.78 L -1.31 0.42 L -3.26 -1.06 L -0.81 -1.11 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-1176.33 211.23) rotate(86.76)"><g class="vayro-scatter-shape vayro-scatter-shape-21 vayro-scatter-rotate-21"><path d="M 0.00 -3.43 L 0.81 -1.11 L 3.26 -1.06 L 1.31 0.42 L 2.02 2.78 L 0.00 1.37 L -2.02 2.78 L -1.31 0.42 L -3.26 -1.06 L -0.81 -1.11 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-22">
+      <g transform="translate(797.98 245.28) rotate(325.65)"><g class="vayro-scatter-shape vayro-scatter-shape-22 vayro-scatter-rotate-22"><circle cx="0" cy="0" r="5.36" fill="#6ed8eb" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-1122.02 245.28) rotate(325.65)"><g class="vayro-scatter-shape vayro-scatter-shape-22 vayro-scatter-rotate-22"><circle cx="0" cy="0" r="5.36" fill="#6ed8eb" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-23">
+      <g transform="translate(931.99 245.67) rotate(232.73)"><g class="vayro-scatter-shape vayro-scatter-shape-23 vayro-scatter-rotate-23"><path d="M 0.00 -10.34 L 2.43 -3.35 L 9.84 -3.20 L 3.93 1.28 L 6.08 8.37 L 0.00 4.14 L -6.08 8.37 L -3.93 1.28 L -9.84 -3.20 L -2.43 -3.35 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-988.01 245.67) rotate(232.73)"><g class="vayro-scatter-shape vayro-scatter-shape-23 vayro-scatter-rotate-23"><path d="M 0.00 -10.34 L 2.43 -3.35 L 9.84 -3.20 L 3.93 1.28 L 6.08 8.37 L 0.00 4.14 L -6.08 8.37 L -3.93 1.28 L -9.84 -3.20 L -2.43 -3.35 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-24">
+      <g transform="translate(1084.62 189.79) rotate(146.37)"><g class="vayro-scatter-shape vayro-scatter-shape-24 vayro-scatter-rotate-24"><circle cx="0" cy="0" r="9.83" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-835.38 189.79) rotate(146.37)"><g class="vayro-scatter-shape vayro-scatter-shape-24 vayro-scatter-rotate-24"><circle cx="0" cy="0" r="9.83" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-25">
+      <g transform="translate(1252.69 225.76) rotate(290.53)"><g class="vayro-scatter-shape vayro-scatter-shape-25 vayro-scatter-rotate-25"><path d="M 0.00 -12.77 L 3.00 -4.13 L 12.14 -3.94 L 4.86 1.58 L 7.50 10.33 L 0.00 5.11 L -7.50 10.33 L -4.86 1.58 L -12.14 -3.94 L -3.00 -4.13 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-667.31 225.76) rotate(290.53)"><g class="vayro-scatter-shape vayro-scatter-shape-25 vayro-scatter-rotate-25"><path d="M 0.00 -12.77 L 3.00 -4.13 L 12.14 -3.94 L 4.86 1.58 L 7.50 10.33 L 0.00 5.11 L -7.50 10.33 L -4.86 1.58 L -12.14 -3.94 L -3.00 -4.13 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-26">
+      <g transform="translate(1317.04 168.05) rotate(17.98)"><g class="vayro-scatter-shape vayro-scatter-shape-26 vayro-scatter-rotate-26"><circle cx="0" cy="0" r="13.96" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.12" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-602.96 168.05) rotate(17.98)"><g class="vayro-scatter-shape vayro-scatter-shape-26 vayro-scatter-rotate-26"><circle cx="0" cy="0" r="13.96" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.12" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-27">
+      <g transform="translate(1509.36 245.09) rotate(64.19)"><g class="vayro-scatter-shape vayro-scatter-shape-27 vayro-scatter-rotate-27"><path d="M 0.00 -7.25 L 1.71 -2.35 L 6.90 -2.24 L 2.76 0.90 L 4.26 5.87 L 0.00 2.90 L -4.26 5.87 L -2.76 0.90 L -6.90 -2.24 L -1.71 -2.35 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-410.64 245.09) rotate(64.19)"><g class="vayro-scatter-shape vayro-scatter-shape-27 vayro-scatter-rotate-27"><path d="M 0.00 -7.25 L 1.71 -2.35 L 6.90 -2.24 L 2.76 0.90 L 4.26 5.87 L 0.00 2.90 L -4.26 5.87 L -2.76 0.90 L -6.90 -2.24 L -1.71 -2.35 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-28">
+      <g transform="translate(1562.07 193.51) rotate(81.90)"><g class="vayro-scatter-shape vayro-scatter-shape-28 vayro-scatter-rotate-28"><circle cx="0" cy="0" r="4.22" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-357.93 193.51) rotate(81.90)"><g class="vayro-scatter-shape vayro-scatter-shape-28 vayro-scatter-rotate-28"><circle cx="0" cy="0" r="4.22" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-29">
+      <g transform="translate(1734.32 181.09) rotate(233.58)"><g class="vayro-scatter-shape vayro-scatter-shape-29 vayro-scatter-rotate-29"><path d="M 0.00 -5.86 L 1.38 -1.90 L 5.58 -1.81 L 2.23 0.72 L 3.45 4.74 L 0.00 2.35 L -3.45 4.74 L -2.23 0.72 L -5.58 -1.81 L -1.38 -1.90 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-185.68 181.09) rotate(233.58)"><g class="vayro-scatter-shape vayro-scatter-shape-29 vayro-scatter-rotate-29"><path d="M 0.00 -5.86 L 1.38 -1.90 L 5.58 -1.81 L 2.23 0.72 L 3.45 4.74 L 0.00 2.35 L -3.45 4.74 L -2.23 0.72 L -5.58 -1.81 L -1.38 -1.90 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-30">
+      <g transform="translate(1892.86 204.17) rotate(281.65)"><g class="vayro-scatter-shape vayro-scatter-shape-30 vayro-scatter-rotate-30"><circle cx="0" cy="0" r="3.99" fill="#6ed8eb" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-27.14 204.17) rotate(281.65)"><g class="vayro-scatter-shape vayro-scatter-shape-30 vayro-scatter-rotate-30"><circle cx="0" cy="0" r="3.99" fill="#6ed8eb" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-31">
+      <g transform="translate(111.17 301.85) rotate(111.62)"><g class="vayro-scatter-shape vayro-scatter-shape-31 vayro-scatter-rotate-31"><path d="M 0.00 -3.87 L 0.91 -1.25 L 3.68 -1.20 L 1.47 0.48 L 2.27 3.13 L 0.00 1.55 L -2.27 3.13 L -1.47 0.48 L -3.68 -1.20 L -0.91 -1.25 Z" fill="#c253b3" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-1808.83 301.85) rotate(111.62)"><g class="vayro-scatter-shape vayro-scatter-shape-31 vayro-scatter-rotate-31"><path d="M 0.00 -3.87 L 0.91 -1.25 L 3.68 -1.20 L 1.47 0.48 L 2.27 3.13 L 0.00 1.55 L -2.27 3.13 L -1.47 0.48 L -3.68 -1.20 L -0.91 -1.25 Z" fill="#c253b3" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-32">
+      <g transform="translate(182.73 387.23) rotate(100.12)"><g class="vayro-scatter-shape vayro-scatter-shape-32 vayro-scatter-rotate-32"><circle cx="0" cy="0" r="5.41" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-1737.27 387.23) rotate(100.12)"><g class="vayro-scatter-shape vayro-scatter-shape-32 vayro-scatter-rotate-32"><circle cx="0" cy="0" r="5.41" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-33">
+      <g transform="translate(315.61 291.41) rotate(65.47)"><g class="vayro-scatter-shape vayro-scatter-shape-33 vayro-scatter-rotate-33"><path d="M 0.00 -13.38 L 3.15 -4.33 L 12.73 -4.14 L 5.09 1.65 L 7.87 10.83 L 0.00 5.35 L -7.87 10.83 L -5.09 1.65 L -12.73 -4.14 L -3.15 -4.33 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-1604.39 291.41) rotate(65.47)"><g class="vayro-scatter-shape vayro-scatter-shape-33 vayro-scatter-rotate-33"><path d="M 0.00 -13.38 L 3.15 -4.33 L 12.73 -4.14 L 5.09 1.65 L 7.87 10.83 L 0.00 5.35 L -7.87 10.83 L -5.09 1.65 L -12.73 -4.14 L -3.15 -4.33 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-34">
+      <g transform="translate(458.78 299.83) rotate(115.31)"><g class="vayro-scatter-shape vayro-scatter-shape-34 vayro-scatter-rotate-34"><circle cx="0" cy="0" r="10.33" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-1461.22 299.83) rotate(115.31)"><g class="vayro-scatter-shape vayro-scatter-shape-34 vayro-scatter-rotate-34"><circle cx="0" cy="0" r="10.33" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-35">
+      <g transform="translate(618.49 363.13) rotate(155.62)"><g class="vayro-scatter-shape vayro-scatter-shape-35 vayro-scatter-rotate-35"><path d="M 0.00 -10.01 L 2.35 -3.24 L 9.52 -3.09 L 3.81 1.24 L 5.88 8.10 L 0.00 4.00 L -5.88 8.10 L -3.81 1.24 L -9.52 -3.09 L -2.35 -3.24 Z" fill="#c253b3" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-1301.51 363.13) rotate(155.62)"><g class="vayro-scatter-shape vayro-scatter-shape-35 vayro-scatter-rotate-35"><path d="M 0.00 -10.01 L 2.35 -3.24 L 9.52 -3.09 L 3.81 1.24 L 5.88 8.10 L 0.00 4.00 L -5.88 8.10 L -3.81 1.24 L -9.52 -3.09 L -2.35 -3.24 Z" fill="#c253b3" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-36">
+      <g transform="translate(741.65 302.11) rotate(151.99)"><g class="vayro-scatter-shape vayro-scatter-shape-36 vayro-scatter-rotate-36"><circle cx="0" cy="0" r="12.97" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.04" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-1178.35 302.11) rotate(151.99)"><g class="vayro-scatter-shape vayro-scatter-shape-36 vayro-scatter-rotate-36"><circle cx="0" cy="0" r="12.97" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.04" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-37">
+      <g transform="translate(847.36 310.49) rotate(280.68)"><g class="vayro-scatter-shape vayro-scatter-shape-37 vayro-scatter-rotate-37"><path d="M 0.00 -10.50 L 2.47 -3.40 L 9.99 -3.25 L 4.00 1.30 L 6.17 8.50 L 0.00 4.20 L -6.17 8.50 L -4.00 1.30 L -9.99 -3.25 L -2.47 -3.40 Z" fill="none" stroke="#f084ba" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-1072.64 310.49) rotate(280.68)"><g class="vayro-scatter-shape vayro-scatter-shape-37 vayro-scatter-rotate-37"><path d="M 0.00 -10.50 L 2.47 -3.40 L 9.99 -3.25 L 4.00 1.30 L 6.17 8.50 L 0.00 4.20 L -6.17 8.50 L -4.00 1.30 L -9.99 -3.25 L -2.47 -3.40 Z" fill="none" stroke="#f084ba" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-38">
+      <g transform="translate(983.63 333.91) rotate(224.25)"><g class="vayro-scatter-shape vayro-scatter-shape-38 vayro-scatter-rotate-38"><circle cx="0" cy="0" r="10.16" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-936.37 333.91) rotate(224.25)"><g class="vayro-scatter-shape vayro-scatter-shape-38 vayro-scatter-rotate-38"><circle cx="0" cy="0" r="10.16" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-39">
+      <g transform="translate(1132.84 299.71) rotate(241.77)"><g class="vayro-scatter-shape vayro-scatter-shape-39 vayro-scatter-rotate-39"><path d="M 0.00 -11.16 L 2.62 -3.61 L 10.61 -3.45 L 4.25 1.38 L 6.56 9.03 L 0.00 4.46 L -6.56 9.03 L -4.25 1.38 L -10.61 -3.45 L -2.62 -3.61 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-787.16 299.71) rotate(241.77)"><g class="vayro-scatter-shape vayro-scatter-shape-39 vayro-scatter-rotate-39"><path d="M 0.00 -11.16 L 2.62 -3.61 L 10.61 -3.45 L 4.25 1.38 L 6.56 9.03 L 0.00 4.46 L -6.56 9.03 L -4.25 1.38 L -10.61 -3.45 L -2.62 -3.61 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-40">
+      <g transform="translate(1210.12 390.67) rotate(1.29)"><g class="vayro-scatter-shape vayro-scatter-shape-40 vayro-scatter-rotate-40"><circle cx="0" cy="0" r="5.79" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-709.88 390.67) rotate(1.29)"><g class="vayro-scatter-shape vayro-scatter-shape-40 vayro-scatter-rotate-40"><circle cx="0" cy="0" r="5.79" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-41">
+      <g transform="translate(1347.72 343.66) rotate(316.07)"><g class="vayro-scatter-shape vayro-scatter-shape-41 vayro-scatter-rotate-41"><path d="M 0.00 -9.77 L 2.30 -3.16 L 9.29 -3.02 L 3.72 1.21 L 5.74 7.90 L 0.00 3.91 L -5.74 7.90 L -3.72 1.21 L -9.29 -3.02 L -2.30 -3.16 Z" fill="none" stroke="#f084ba" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-572.28 343.66) rotate(316.07)"><g class="vayro-scatter-shape vayro-scatter-shape-41 vayro-scatter-rotate-41"><path d="M 0.00 -9.77 L 2.30 -3.16 L 9.29 -3.02 L 3.72 1.21 L 5.74 7.90 L 0.00 3.91 L -5.74 7.90 L -3.72 1.21 L -9.29 -3.02 L -2.30 -3.16 Z" fill="none" stroke="#f084ba" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-42">
+      <g transform="translate(1484.04 390.95) rotate(136.24)"><g class="vayro-scatter-shape vayro-scatter-shape-42 vayro-scatter-rotate-42"><circle cx="0" cy="0" r="8.96" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-435.96 390.95) rotate(136.24)"><g class="vayro-scatter-shape vayro-scatter-shape-42 vayro-scatter-rotate-42"><circle cx="0" cy="0" r="8.96" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-43">
+      <g transform="translate(1566.95 358.00) rotate(43.09)"><g class="vayro-scatter-shape vayro-scatter-shape-43 vayro-scatter-rotate-43"><path d="M 0.00 -5.35 L 1.26 -1.73 L 5.09 -1.65 L 2.03 0.66 L 3.14 4.33 L 0.00 2.14 L -3.14 4.33 L -2.03 0.66 L -5.09 -1.65 L -1.26 -1.73 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-353.05 358.00) rotate(43.09)"><g class="vayro-scatter-shape vayro-scatter-shape-43 vayro-scatter-rotate-43"><path d="M 0.00 -5.35 L 1.26 -1.73 L 5.09 -1.65 L 2.03 0.66 L 3.14 4.33 L 0.00 2.14 L -3.14 4.33 L -2.03 0.66 L -5.09 -1.65 L -1.26 -1.73 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-44">
+      <g transform="translate(1699.33 288.99) rotate(153.58)"><g class="vayro-scatter-shape vayro-scatter-shape-44 vayro-scatter-rotate-44"><circle cx="0" cy="0" r="9.77" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-220.67 288.99) rotate(153.58)"><g class="vayro-scatter-shape vayro-scatter-shape-44 vayro-scatter-rotate-44"><circle cx="0" cy="0" r="9.77" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-45">
+      <g transform="translate(1821.46 312.46) rotate(113.07)"><g class="vayro-scatter-shape vayro-scatter-shape-45 vayro-scatter-rotate-45"><path d="M 0.00 -8.00 L 1.88 -2.59 L 7.61 -2.47 L 3.04 0.99 L 4.70 6.47 L 0.00 3.20 L -4.70 6.47 L -3.04 0.99 L -7.61 -2.47 L -1.88 -2.59 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-98.54 312.46) rotate(113.07)"><g class="vayro-scatter-shape vayro-scatter-shape-45 vayro-scatter-rotate-45"><path d="M 0.00 -8.00 L 1.88 -2.59 L 7.61 -2.47 L 3.04 0.99 L 4.70 6.47 L 0.00 3.20 L -4.70 6.47 L -3.04 0.99 L -7.61 -2.47 L -1.88 -2.59 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-46">
+      <g transform="translate(45.70 453.05) rotate(348.85)"><g class="vayro-scatter-shape vayro-scatter-shape-46 vayro-scatter-rotate-46"><circle cx="0" cy="0" r="8.97" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-1874.30 453.05) rotate(348.85)"><g class="vayro-scatter-shape vayro-scatter-shape-46 vayro-scatter-rotate-46"><circle cx="0" cy="0" r="8.97" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-47">
+      <g transform="translate(155.88 496.78) rotate(27.84)"><g class="vayro-scatter-shape vayro-scatter-shape-47 vayro-scatter-rotate-47"><path d="M 0.00 -4.30 L 1.01 -1.39 L 4.09 -1.33 L 1.64 0.53 L 2.53 3.48 L 0.00 1.72 L -2.53 3.48 L -1.64 0.53 L -4.09 -1.33 L -1.01 -1.39 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-1764.12 496.78) rotate(27.84)"><g class="vayro-scatter-shape vayro-scatter-shape-47 vayro-scatter-rotate-47"><path d="M 0.00 -4.30 L 1.01 -1.39 L 4.09 -1.33 L 1.64 0.53 L 2.53 3.48 L 0.00 1.72 L -2.53 3.48 L -1.64 0.53 L -4.09 -1.33 L -1.01 -1.39 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-48">
+      <g transform="translate(284.84 470.08) rotate(76.39)"><g class="vayro-scatter-shape vayro-scatter-shape-48 vayro-scatter-rotate-48"><circle cx="0" cy="0" r="6.98" fill="#e3e386" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-1635.16 470.08) rotate(76.39)"><g class="vayro-scatter-shape vayro-scatter-shape-48 vayro-scatter-rotate-48"><circle cx="0" cy="0" r="6.98" fill="#e3e386" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-49">
+      <g transform="translate(419.04 433.24) rotate(213.55)"><g class="vayro-scatter-shape vayro-scatter-shape-49 vayro-scatter-rotate-49"><path d="M 0.00 -7.51 L 1.77 -2.43 L 7.14 -2.32 L 2.86 0.93 L 4.41 6.07 L 0.00 3.00 L -4.41 6.07 L -2.86 0.93 L -7.14 -2.32 L -1.77 -2.43 Z" fill="none" stroke="#f084ba" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-1500.96 433.24) rotate(213.55)"><g class="vayro-scatter-shape vayro-scatter-shape-49 vayro-scatter-rotate-49"><path d="M 0.00 -7.51 L 1.77 -2.43 L 7.14 -2.32 L 2.86 0.93 L 4.41 6.07 L 0.00 3.00 L -4.41 6.07 L -2.86 0.93 L -7.14 -2.32 L -1.77 -2.43 Z" fill="none" stroke="#f084ba" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-50">
+      <g transform="translate(557.29 442.30) rotate(263.40)"><g class="vayro-scatter-shape vayro-scatter-shape-50 vayro-scatter-rotate-50"><circle cx="0" cy="0" r="7.36" fill="#6ed8eb" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-1362.71 442.30) rotate(263.40)"><g class="vayro-scatter-shape vayro-scatter-shape-50 vayro-scatter-rotate-50"><circle cx="0" cy="0" r="7.36" fill="#6ed8eb" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-51">
+      <g transform="translate(728.34 454.37) rotate(6.85)"><g class="vayro-scatter-shape vayro-scatter-shape-51 vayro-scatter-rotate-51"><path d="M 0.00 -6.62 L 1.56 -2.14 L 6.29 -2.05 L 2.52 0.82 L 3.89 5.35 L 0.00 2.65 L -3.89 5.35 L -2.52 0.82 L -6.29 -2.05 L -1.56 -2.14 Z" fill="#c253b3" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-1191.66 454.37) rotate(6.85)"><g class="vayro-scatter-shape vayro-scatter-shape-51 vayro-scatter-rotate-51"><path d="M 0.00 -6.62 L 1.56 -2.14 L 6.29 -2.05 L 2.52 0.82 L 3.89 5.35 L 0.00 2.65 L -3.89 5.35 L -2.52 0.82 L -6.29 -2.05 L -1.56 -2.14 Z" fill="#c253b3" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-52">
+      <g transform="translate(795.95 521.44) rotate(184.07)"><g class="vayro-scatter-shape vayro-scatter-shape-52 vayro-scatter-rotate-52"><circle cx="0" cy="0" r="13.04" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.04" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-1124.05 521.44) rotate(184.07)"><g class="vayro-scatter-shape vayro-scatter-shape-52 vayro-scatter-rotate-52"><circle cx="0" cy="0" r="13.04" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.04" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-53">
+      <g transform="translate(940.73 439.31) rotate(146.84)"><g class="vayro-scatter-shape vayro-scatter-shape-53 vayro-scatter-rotate-53"><path d="M 0.00 -9.99 L 2.35 -3.23 L 9.50 -3.09 L 3.80 1.24 L 5.87 8.08 L 0.00 4.00 L -5.87 8.08 L -3.80 1.24 L -9.50 -3.09 L -2.35 -3.23 Z" fill="none" stroke="#f084ba" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-979.27 439.31) rotate(146.84)"><g class="vayro-scatter-shape vayro-scatter-shape-53 vayro-scatter-rotate-53"><path d="M 0.00 -9.99 L 2.35 -3.23 L 9.50 -3.09 L 3.80 1.24 L 5.87 8.08 L 0.00 4.00 L -5.87 8.08 L -3.80 1.24 L -9.50 -3.09 L -2.35 -3.23 Z" fill="none" stroke="#f084ba" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-54">
+      <g transform="translate(1109.40 468.67) rotate(221.76)"><g class="vayro-scatter-shape vayro-scatter-shape-54 vayro-scatter-rotate-54"><circle cx="0" cy="0" r="5.49" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-810.60 468.67) rotate(221.76)"><g class="vayro-scatter-shape vayro-scatter-shape-54 vayro-scatter-rotate-54"><circle cx="0" cy="0" r="5.49" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-55">
+      <g transform="translate(1243.70 525.53) rotate(145.63)"><g class="vayro-scatter-shape vayro-scatter-shape-55 vayro-scatter-rotate-55"><path d="M 0.00 -4.71 L 1.11 -1.52 L 4.48 -1.45 L 1.79 0.58 L 2.77 3.81 L 0.00 1.88 L -2.77 3.81 L -1.79 0.58 L -4.48 -1.45 L -1.11 -1.52 Z" fill="#c253b3" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-676.30 525.53) rotate(145.63)"><g class="vayro-scatter-shape vayro-scatter-shape-55 vayro-scatter-rotate-55"><path d="M 0.00 -4.71 L 1.11 -1.52 L 4.48 -1.45 L 1.79 0.58 L 2.77 3.81 L 0.00 1.88 L -2.77 3.81 L -1.79 0.58 L -4.48 -1.45 L -1.11 -1.52 Z" fill="#c253b3" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-56">
+      <g transform="translate(1371.65 505.90) rotate(45.12)"><g class="vayro-scatter-shape vayro-scatter-shape-56 vayro-scatter-rotate-56"><circle cx="0" cy="0" r="7.26" fill="#e3e386" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-548.35 505.90) rotate(45.12)"><g class="vayro-scatter-shape vayro-scatter-shape-56 vayro-scatter-rotate-56"><circle cx="0" cy="0" r="7.26" fill="#e3e386" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-57">
+      <g transform="translate(1423.20 475.36) rotate(214.65)"><g class="vayro-scatter-shape vayro-scatter-shape-57 vayro-scatter-rotate-57"><path d="M 0.00 -4.49 L 1.06 -1.45 L 4.27 -1.39 L 1.71 0.55 L 2.64 3.63 L 0.00 1.80 L -2.64 3.63 L -1.71 0.55 L -4.27 -1.39 L -1.06 -1.45 Z" fill="none" stroke="#f084ba" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-496.80 475.36) rotate(214.65)"><g class="vayro-scatter-shape vayro-scatter-shape-57 vayro-scatter-rotate-57"><path d="M 0.00 -4.49 L 1.06 -1.45 L 4.27 -1.39 L 1.71 0.55 L 2.64 3.63 L 0.00 1.80 L -2.64 3.63 L -1.71 0.55 L -4.27 -1.39 L -1.06 -1.45 Z" fill="none" stroke="#f084ba" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-58">
+      <g transform="translate(1631.13 465.32) rotate(172.97)"><g class="vayro-scatter-shape vayro-scatter-shape-58 vayro-scatter-rotate-58"><circle cx="0" cy="0" r="4.83" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-288.87 465.32) rotate(172.97)"><g class="vayro-scatter-shape vayro-scatter-shape-58 vayro-scatter-rotate-58"><circle cx="0" cy="0" r="4.83" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-59">
+      <g transform="translate(1731.49 418.95) rotate(319.75)"><g class="vayro-scatter-shape vayro-scatter-shape-59 vayro-scatter-rotate-59"><path d="M 0.00 -13.29 L 3.12 -4.30 L 12.64 -4.11 L 5.05 1.64 L 7.81 10.75 L 0.00 5.31 L -7.81 10.75 L -5.05 1.64 L -12.64 -4.11 L -3.12 -4.30 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.06" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-188.51 418.95) rotate(319.75)"><g class="vayro-scatter-shape vayro-scatter-shape-59 vayro-scatter-rotate-59"><path d="M 0.00 -13.29 L 3.12 -4.30 L 12.64 -4.11 L 5.05 1.64 L 7.81 10.75 L 0.00 5.31 L -7.81 10.75 L -5.05 1.64 L -12.64 -4.11 L -3.12 -4.30 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.06" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-60">
+      <g transform="translate(1809.29 479.68) rotate(92.56)"><g class="vayro-scatter-shape vayro-scatter-shape-60 vayro-scatter-rotate-60"><circle cx="0" cy="0" r="8.00" fill="#e3e386" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-110.71 479.68) rotate(92.56)"><g class="vayro-scatter-shape vayro-scatter-shape-60 vayro-scatter-rotate-60"><circle cx="0" cy="0" r="8.00" fill="#e3e386" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-61">
+      <g transform="translate(105.71 593.23) rotate(275.54)"><g class="vayro-scatter-shape vayro-scatter-shape-61 vayro-scatter-rotate-61"><path d="M 0.00 -11.58 L 2.72 -3.75 L 11.01 -3.58 L 4.41 1.43 L 6.81 9.37 L 0.00 4.63 L -6.81 9.37 L -4.41 1.43 L -11.01 -3.58 L -2.72 -3.75 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-1814.29 593.23) rotate(275.54)"><g class="vayro-scatter-shape vayro-scatter-shape-61 vayro-scatter-rotate-61"><path d="M 0.00 -11.58 L 2.72 -3.75 L 11.01 -3.58 L 4.41 1.43 L 6.81 9.37 L 0.00 4.63 L -6.81 9.37 L -4.41 1.43 L -11.01 -3.58 L -2.72 -3.75 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-62">
+      <g transform="translate(206.68 594.71) rotate(22.30)"><g class="vayro-scatter-shape vayro-scatter-shape-62 vayro-scatter-rotate-62"><circle cx="0" cy="0" r="7.37" fill="#6ed8eb" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-1713.32 594.71) rotate(22.30)"><g class="vayro-scatter-shape vayro-scatter-shape-62 vayro-scatter-rotate-62"><circle cx="0" cy="0" r="7.37" fill="#6ed8eb" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-63">
+      <g transform="translate(351.29 554.75) rotate(210.62)"><g class="vayro-scatter-shape vayro-scatter-shape-63 vayro-scatter-rotate-63"><path d="M 0.00 -12.25 L 2.88 -3.97 L 11.66 -3.79 L 4.66 1.51 L 7.20 9.91 L 0.00 4.90 L -7.20 9.91 L -4.66 1.51 L -11.66 -3.79 L -2.88 -3.97 Z" fill="#c253b3" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-1568.71 554.75) rotate(210.62)"><g class="vayro-scatter-shape vayro-scatter-shape-63 vayro-scatter-rotate-63"><path d="M 0.00 -12.25 L 2.88 -3.97 L 11.66 -3.79 L 4.66 1.51 L 7.20 9.91 L 0.00 4.90 L -7.20 9.91 L -4.66 1.51 L -11.66 -3.79 L -2.88 -3.97 Z" fill="#c253b3" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-64">
+      <g transform="translate(410.24 604.71) rotate(75.81)"><g class="vayro-scatter-shape vayro-scatter-shape-64 vayro-scatter-rotate-64"><circle cx="0" cy="0" r="5.10" fill="#e3e386" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-1509.76 604.71) rotate(75.81)"><g class="vayro-scatter-shape vayro-scatter-shape-64 vayro-scatter-rotate-64"><circle cx="0" cy="0" r="5.10" fill="#e3e386" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-65">
+      <g transform="translate(558.95 634.82) rotate(81.82)"><g class="vayro-scatter-shape vayro-scatter-shape-65 vayro-scatter-rotate-65"><path d="M 0.00 -13.04 L 3.07 -4.22 L 12.40 -4.03 L 4.96 1.61 L 7.67 10.55 L 0.00 5.22 L -7.67 10.55 L -4.96 1.61 L -12.40 -4.03 L -3.07 -4.22 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-1361.05 634.82) rotate(81.82)"><g class="vayro-scatter-shape vayro-scatter-shape-65 vayro-scatter-rotate-65"><path d="M 0.00 -13.04 L 3.07 -4.22 L 12.40 -4.03 L 4.96 1.61 L 7.67 10.55 L 0.00 5.22 L -7.67 10.55 L -4.96 1.61 L -12.40 -4.03 L -3.07 -4.22 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-66">
+      <g transform="translate(663.78 567.21) rotate(200.17)"><g class="vayro-scatter-shape vayro-scatter-shape-66 vayro-scatter-rotate-66"><circle cx="0" cy="0" r="4.37" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-1256.22 567.21) rotate(200.17)"><g class="vayro-scatter-shape vayro-scatter-shape-66 vayro-scatter-rotate-66"><circle cx="0" cy="0" r="4.37" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-67">
+      <g transform="translate(791.19 634.80) rotate(124.54)"><g class="vayro-scatter-shape vayro-scatter-shape-67 vayro-scatter-rotate-67"><path d="M 0.00 -5.76 L 1.35 -1.86 L 5.48 -1.78 L 2.19 0.71 L 3.39 4.66 L 0.00 2.30 L -3.39 4.66 L -2.19 0.71 L -5.48 -1.78 L -1.35 -1.86 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-1128.81 634.80) rotate(124.54)"><g class="vayro-scatter-shape vayro-scatter-shape-67 vayro-scatter-rotate-67"><path d="M 0.00 -5.76 L 1.35 -1.86 L 5.48 -1.78 L 2.19 0.71 L 3.39 4.66 L 0.00 2.30 L -3.39 4.66 L -2.19 0.71 L -5.48 -1.78 L -1.35 -1.86 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-68">
+      <g transform="translate(946.28 602.15) rotate(337.79)"><g class="vayro-scatter-shape vayro-scatter-shape-68 vayro-scatter-rotate-68"><circle cx="0" cy="0" r="10.55" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-973.72 602.15) rotate(337.79)"><g class="vayro-scatter-shape vayro-scatter-shape-68 vayro-scatter-rotate-68"><circle cx="0" cy="0" r="10.55" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-69">
+      <g transform="translate(1053.65 607.09) rotate(116.20)"><g class="vayro-scatter-shape vayro-scatter-shape-69 vayro-scatter-rotate-69"><path d="M 0.00 -6.83 L 1.61 -2.21 L 6.50 -2.11 L 2.60 0.84 L 4.01 5.53 L 0.00 2.73 L -4.01 5.53 L -2.60 0.84 L -6.50 -2.11 L -1.61 -2.21 Z" fill="none" stroke="#f084ba" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-866.35 607.09) rotate(116.20)"><g class="vayro-scatter-shape vayro-scatter-shape-69 vayro-scatter-rotate-69"><path d="M 0.00 -6.83 L 1.61 -2.21 L 6.50 -2.11 L 2.60 0.84 L 4.01 5.53 L 0.00 2.73 L -4.01 5.53 L -2.60 0.84 L -6.50 -2.11 L -1.61 -2.21 Z" fill="none" stroke="#f084ba" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-70">
+      <g transform="translate(1266.99 624.78) rotate(342.92)"><g class="vayro-scatter-shape vayro-scatter-shape-70 vayro-scatter-rotate-70"><circle cx="0" cy="0" r="7.89" fill="#6ed8eb" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-653.01 624.78) rotate(342.92)"><g class="vayro-scatter-shape vayro-scatter-shape-70 vayro-scatter-rotate-70"><circle cx="0" cy="0" r="7.89" fill="#6ed8eb" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-71">
+      <g transform="translate(1390.46 617.52) rotate(227.76)"><g class="vayro-scatter-shape vayro-scatter-shape-71 vayro-scatter-rotate-71"><path d="M 0.00 -9.07 L 2.13 -2.93 L 8.62 -2.80 L 3.45 1.12 L 5.33 7.33 L 0.00 3.63 L -5.33 7.33 L -3.45 1.12 L -8.62 -2.80 L -2.13 -2.93 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-529.54 617.52) rotate(227.76)"><g class="vayro-scatter-shape vayro-scatter-shape-71 vayro-scatter-rotate-71"><path d="M 0.00 -9.07 L 2.13 -2.93 L 8.62 -2.80 L 3.45 1.12 L 5.33 7.33 L 0.00 3.63 L -5.33 7.33 L -3.45 1.12 L -8.62 -2.80 L -2.13 -2.93 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-72">
+      <g transform="translate(1439.20 649.16) rotate(303.78)"><g class="vayro-scatter-shape vayro-scatter-shape-72 vayro-scatter-rotate-72"><circle cx="0" cy="0" r="7.35" fill="#e3e386" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-480.80 649.16) rotate(303.78)"><g class="vayro-scatter-shape vayro-scatter-shape-72 vayro-scatter-rotate-72"><circle cx="0" cy="0" r="7.35" fill="#e3e386" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-73">
+      <g transform="translate(1620.52 590.97) rotate(264.12)"><g class="vayro-scatter-shape vayro-scatter-shape-73 vayro-scatter-rotate-73"><path d="M 0.00 -13.23 L 3.11 -4.28 L 12.58 -4.09 L 5.03 1.64 L 7.78 10.70 L 0.00 5.29 L -7.78 10.70 L -5.03 1.64 L -12.58 -4.09 L -3.11 -4.28 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-299.48 590.97) rotate(264.12)"><g class="vayro-scatter-shape vayro-scatter-shape-73 vayro-scatter-rotate-73"><path d="M 0.00 -13.23 L 3.11 -4.28 L 12.58 -4.09 L 5.03 1.64 L 7.78 10.70 L 0.00 5.29 L -7.78 10.70 L -5.03 1.64 L -12.58 -4.09 L -3.11 -4.28 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-74">
+      <g transform="translate(1735.43 651.11) rotate(250.67)"><g class="vayro-scatter-shape vayro-scatter-shape-74 vayro-scatter-rotate-74"><circle cx="0" cy="0" r="8.20" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-184.57 651.11) rotate(250.67)"><g class="vayro-scatter-shape vayro-scatter-shape-74 vayro-scatter-rotate-74"><circle cx="0" cy="0" r="8.20" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-75">
+      <g transform="translate(1892.89 642.67) rotate(311.64)"><g class="vayro-scatter-shape vayro-scatter-shape-75 vayro-scatter-rotate-75"><path d="M 0.00 -12.66 L 2.98 -4.10 L 12.04 -3.91 L 4.82 1.56 L 7.44 10.24 L 0.00 5.06 L -7.44 10.24 L -4.82 1.56 L -12.04 -3.91 L -2.98 -4.10 Z" fill="#c253b3" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-27.11 642.67) rotate(311.64)"><g class="vayro-scatter-shape vayro-scatter-shape-75 vayro-scatter-rotate-75"><path d="M 0.00 -12.66 L 2.98 -4.10 L 12.04 -3.91 L 4.82 1.56 L 7.44 10.24 L 0.00 5.06 L -7.44 10.24 L -4.82 1.56 L -12.04 -3.91 L -2.98 -4.10 Z" fill="#c253b3" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-76">
+      <g transform="translate(101.58 781.10) rotate(111.34)"><g class="vayro-scatter-shape vayro-scatter-shape-76 vayro-scatter-rotate-76"><circle cx="0" cy="0" r="10.62" fill="#e3e386" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-1818.42 781.10) rotate(111.34)"><g class="vayro-scatter-shape vayro-scatter-shape-76 vayro-scatter-rotate-76"><circle cx="0" cy="0" r="10.62" fill="#e3e386" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-77">
+      <g transform="translate(221.46 762.92) rotate(173.24)"><g class="vayro-scatter-shape vayro-scatter-shape-77 vayro-scatter-rotate-77"><path d="M 0.00 -12.53 L 2.95 -4.06 L 11.92 -3.87 L 4.77 1.55 L 7.37 10.14 L 0.00 5.01 L -7.37 10.14 L -4.77 1.55 L -11.92 -3.87 L -2.95 -4.06 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-1698.54 762.92) rotate(173.24)"><g class="vayro-scatter-shape vayro-scatter-shape-77 vayro-scatter-rotate-77"><path d="M 0.00 -12.53 L 2.95 -4.06 L 11.92 -3.87 L 4.77 1.55 L 7.37 10.14 L 0.00 5.01 L -7.37 10.14 L -4.77 1.55 L -11.92 -3.87 L -2.95 -4.06 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-78">
+      <g transform="translate(341.04 696.59) rotate(355.04)"><g class="vayro-scatter-shape vayro-scatter-shape-78 vayro-scatter-rotate-78"><circle cx="0" cy="0" r="11.17" fill="#6ed8eb" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-1578.96 696.59) rotate(355.04)"><g class="vayro-scatter-shape vayro-scatter-shape-78 vayro-scatter-rotate-78"><circle cx="0" cy="0" r="11.17" fill="#6ed8eb" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-79">
+      <g transform="translate(485.17 722.68) rotate(132.05)"><g class="vayro-scatter-shape vayro-scatter-shape-79 vayro-scatter-rotate-79"><path d="M 0.00 -13.56 L 3.19 -4.39 L 12.90 -4.19 L 5.16 1.68 L 7.97 10.97 L 0.00 5.42 L -7.97 10.97 L -5.16 1.68 L -12.90 -4.19 L -3.19 -4.39 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.08" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-1434.83 722.68) rotate(132.05)"><g class="vayro-scatter-shape vayro-scatter-shape-79 vayro-scatter-rotate-79"><path d="M 0.00 -13.56 L 3.19 -4.39 L 12.90 -4.19 L 5.16 1.68 L 7.97 10.97 L 0.00 5.42 L -7.97 10.97 L -5.16 1.68 L -12.90 -4.19 L -3.19 -4.39 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.08" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-80">
+      <g transform="translate(527.41 764.24) rotate(121.46)"><g class="vayro-scatter-shape vayro-scatter-shape-80 vayro-scatter-rotate-80"><circle cx="0" cy="0" r="4.00" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-1392.59 764.24) rotate(121.46)"><g class="vayro-scatter-shape vayro-scatter-shape-80 vayro-scatter-rotate-80"><circle cx="0" cy="0" r="4.00" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-81">
+      <g transform="translate(678.39 709.61) rotate(134.59)"><g class="vayro-scatter-shape vayro-scatter-shape-81 vayro-scatter-rotate-81"><path d="M 0.00 -3.45 L 0.81 -1.12 L 3.29 -1.07 L 1.31 0.43 L 2.03 2.80 L 0.00 1.38 L -2.03 2.80 L -1.31 0.43 L -3.29 -1.07 L -0.81 -1.12 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-1241.61 709.61) rotate(134.59)"><g class="vayro-scatter-shape vayro-scatter-shape-81 vayro-scatter-rotate-81"><path d="M 0.00 -3.45 L 0.81 -1.12 L 3.29 -1.07 L 1.31 0.43 L 2.03 2.80 L 0.00 1.38 L -2.03 2.80 L -1.31 0.43 L -3.29 -1.07 L -0.81 -1.12 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-82">
+      <g transform="translate(784.32 773.48) rotate(155.07)"><g class="vayro-scatter-shape vayro-scatter-shape-82 vayro-scatter-rotate-82"><circle cx="0" cy="0" r="9.29" fill="#6ed8eb" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-1135.68 773.48) rotate(155.07)"><g class="vayro-scatter-shape vayro-scatter-shape-82 vayro-scatter-rotate-82"><circle cx="0" cy="0" r="9.29" fill="#6ed8eb" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-83">
+      <g transform="translate(923.38 742.62) rotate(350.31)"><g class="vayro-scatter-shape vayro-scatter-shape-83 vayro-scatter-rotate-83"><path d="M 0.00 -9.26 L 2.18 -3.00 L 8.81 -2.86 L 3.52 1.15 L 5.45 7.49 L 0.00 3.71 L -5.45 7.49 L -3.52 1.15 L -8.81 -2.86 L -2.18 -3.00 Z" fill="#c253b3" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-996.62 742.62) rotate(350.31)"><g class="vayro-scatter-shape vayro-scatter-shape-83 vayro-scatter-rotate-83"><path d="M 0.00 -9.26 L 2.18 -3.00 L 8.81 -2.86 L 3.52 1.15 L 5.45 7.49 L 0.00 3.71 L -5.45 7.49 L -3.52 1.15 L -8.81 -2.86 L -2.18 -3.00 Z" fill="#c253b3" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-84">
+      <g transform="translate(1119.20 708.02) rotate(126.01)"><g class="vayro-scatter-shape vayro-scatter-shape-84 vayro-scatter-rotate-84"><circle cx="0" cy="0" r="11.40" fill="#e3e386" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-800.80 708.02) rotate(126.01)"><g class="vayro-scatter-shape vayro-scatter-shape-84 vayro-scatter-rotate-84"><circle cx="0" cy="0" r="11.40" fill="#e3e386" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-85">
+      <g transform="translate(1176.52 784.71) rotate(224.89)"><g class="vayro-scatter-shape vayro-scatter-shape-85 vayro-scatter-rotate-85"><path d="M 0.00 -5.49 L 1.29 -1.78 L 5.22 -1.70 L 2.09 0.68 L 3.22 4.44 L 0.00 2.19 L -3.22 4.44 L -2.09 0.68 L -5.22 -1.70 L -1.29 -1.78 Z" fill="none" stroke="#f084ba" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-743.48 784.71) rotate(224.89)"><g class="vayro-scatter-shape vayro-scatter-shape-85 vayro-scatter-rotate-85"><path d="M 0.00 -5.49 L 1.29 -1.78 L 5.22 -1.70 L 2.09 0.68 L 3.22 4.44 L 0.00 2.19 L -3.22 4.44 L -2.09 0.68 L -5.22 -1.70 L -1.29 -1.78 Z" fill="none" stroke="#f084ba" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-86">
+      <g transform="translate(1338.42 744.74) rotate(60.87)"><g class="vayro-scatter-shape vayro-scatter-shape-86 vayro-scatter-rotate-86"><circle cx="0" cy="0" r="10.60" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-581.58 744.74) rotate(60.87)"><g class="vayro-scatter-shape vayro-scatter-shape-86 vayro-scatter-rotate-86"><circle cx="0" cy="0" r="10.60" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-87">
+      <g transform="translate(1441.59 698.50) rotate(135.55)"><g class="vayro-scatter-shape vayro-scatter-shape-87 vayro-scatter-rotate-87"><path d="M 0.00 -3.94 L 0.93 -1.27 L 3.74 -1.22 L 1.50 0.49 L 2.31 3.18 L 0.00 1.57 L -2.31 3.18 L -1.50 0.49 L -3.74 -1.22 L -0.93 -1.27 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-478.41 698.50) rotate(135.55)"><g class="vayro-scatter-shape vayro-scatter-shape-87 vayro-scatter-rotate-87"><path d="M 0.00 -3.94 L 0.93 -1.27 L 3.74 -1.22 L 1.50 0.49 L 2.31 3.18 L 0.00 1.57 L -2.31 3.18 L -1.50 0.49 L -3.74 -1.22 L -0.93 -1.27 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-88">
+      <g transform="translate(1597.07 742.95) rotate(65.13)"><g class="vayro-scatter-shape vayro-scatter-shape-88 vayro-scatter-rotate-88"><circle cx="0" cy="0" r="10.25" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-322.93 742.95) rotate(65.13)"><g class="vayro-scatter-shape vayro-scatter-shape-88 vayro-scatter-rotate-88"><circle cx="0" cy="0" r="10.25" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-89">
+      <g transform="translate(1709.63 731.99) rotate(146.30)"><g class="vayro-scatter-shape vayro-scatter-shape-89 vayro-scatter-rotate-89"><path d="M 0.00 -10.48 L 2.46 -3.39 L 9.97 -3.24 L 3.99 1.30 L 6.16 8.48 L 0.00 4.19 L -6.16 8.48 L -3.99 1.30 L -9.97 -3.24 L -2.46 -3.39 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-210.37 731.99) rotate(146.30)"><g class="vayro-scatter-shape vayro-scatter-shape-89 vayro-scatter-rotate-89"><path d="M 0.00 -10.48 L 2.46 -3.39 L 9.97 -3.24 L 3.99 1.30 L 6.16 8.48 L 0.00 4.19 L -6.16 8.48 L -3.99 1.30 L -9.97 -3.24 L -2.46 -3.39 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-90">
+      <g transform="translate(1813.30 790.56) rotate(268.64)"><g class="vayro-scatter-shape vayro-scatter-shape-90 vayro-scatter-rotate-90"><circle cx="0" cy="0" r="13.97" fill="#6ed8eb" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-106.70 790.56) rotate(268.64)"><g class="vayro-scatter-shape vayro-scatter-shape-90 vayro-scatter-rotate-90"><circle cx="0" cy="0" r="13.97" fill="#6ed8eb" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-91">
+      <g transform="translate(58.65 900.56) rotate(110.31)"><g class="vayro-scatter-shape vayro-scatter-shape-91 vayro-scatter-rotate-91"><path d="M 0.00 -6.19 L 1.46 -2.00 L 5.89 -1.91 L 2.36 0.77 L 3.64 5.01 L 0.00 2.48 L -3.64 5.01 L -2.36 0.77 L -5.89 -1.91 L -1.46 -2.00 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-1861.35 900.56) rotate(110.31)"><g class="vayro-scatter-shape vayro-scatter-shape-91 vayro-scatter-rotate-91"><path d="M 0.00 -6.19 L 1.46 -2.00 L 5.89 -1.91 L 2.36 0.77 L 3.64 5.01 L 0.00 2.48 L -3.64 5.01 L -2.36 0.77 L -5.89 -1.91 L -1.46 -2.00 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-92">
+      <g transform="translate(203.43 868.74) rotate(190.23)"><g class="vayro-scatter-shape vayro-scatter-shape-92 vayro-scatter-rotate-92"><circle cx="0" cy="0" r="12.80" fill="#e3e386" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-1716.57 868.74) rotate(190.23)"><g class="vayro-scatter-shape vayro-scatter-shape-92 vayro-scatter-rotate-92"><circle cx="0" cy="0" r="12.80" fill="#e3e386" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-93">
+      <g transform="translate(350.06 839.25) rotate(299.27)"><g class="vayro-scatter-shape vayro-scatter-shape-93 vayro-scatter-rotate-93"><path d="M 0.00 -12.81 L 3.01 -4.15 L 12.19 -3.96 L 4.87 1.58 L 7.53 10.37 L 0.00 5.12 L -7.53 10.37 L -4.87 1.58 L -12.19 -3.96 L -3.01 -4.15 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-1569.94 839.25) rotate(299.27)"><g class="vayro-scatter-shape vayro-scatter-shape-93 vayro-scatter-rotate-93"><path d="M 0.00 -12.81 L 3.01 -4.15 L 12.19 -3.96 L 4.87 1.58 L 7.53 10.37 L 0.00 5.12 L -7.53 10.37 L -4.87 1.58 L -12.19 -3.96 L -3.01 -4.15 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-94">
+      <g transform="translate(409.29 875.19) rotate(100.66)"><g class="vayro-scatter-shape vayro-scatter-shape-94 vayro-scatter-rotate-94"><circle cx="0" cy="0" r="9.16" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-1510.71 875.19) rotate(100.66)"><g class="vayro-scatter-shape vayro-scatter-shape-94 vayro-scatter-rotate-94"><circle cx="0" cy="0" r="9.16" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-95">
+      <g transform="translate(535.60 880.87) rotate(351.03)"><g class="vayro-scatter-shape vayro-scatter-shape-95 vayro-scatter-rotate-95"><path d="M 0.00 -11.17 L 2.63 -3.62 L 10.63 -3.45 L 4.25 1.38 L 6.57 9.04 L 0.00 4.47 L -6.57 9.04 L -4.25 1.38 L -10.63 -3.45 L -2.63 -3.62 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-1384.40 880.87) rotate(351.03)"><g class="vayro-scatter-shape vayro-scatter-shape-95 vayro-scatter-rotate-95"><path d="M 0.00 -11.17 L 2.63 -3.62 L 10.63 -3.45 L 4.25 1.38 L 6.57 9.04 L 0.00 4.47 L -6.57 9.04 L -4.25 1.38 L -10.63 -3.45 L -2.63 -3.62 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-96">
+      <g transform="translate(721.98 914.15) rotate(182.53)"><g class="vayro-scatter-shape vayro-scatter-shape-96 vayro-scatter-rotate-96"><circle cx="0" cy="0" r="12.27" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-1198.02 914.15) rotate(182.53)"><g class="vayro-scatter-shape vayro-scatter-shape-96 vayro-scatter-rotate-96"><circle cx="0" cy="0" r="12.27" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-97">
+      <g transform="translate(814.68 830.06) rotate(22.94)"><g class="vayro-scatter-shape vayro-scatter-shape-97 vayro-scatter-rotate-97"><path d="M 0.00 -9.48 L 2.23 -3.07 L 9.02 -2.93 L 3.61 1.17 L 5.57 7.67 L 0.00 3.79 L -5.57 7.67 L -3.61 1.17 L -9.02 -2.93 L -2.23 -3.07 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-1105.32 830.06) rotate(22.94)"><g class="vayro-scatter-shape vayro-scatter-shape-97 vayro-scatter-rotate-97"><path d="M 0.00 -9.48 L 2.23 -3.07 L 9.02 -2.93 L 3.61 1.17 L 5.57 7.67 L 0.00 3.79 L -5.57 7.67 L -3.61 1.17 L -9.02 -2.93 L -2.23 -3.07 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-98">
+      <g transform="translate(958.05 843.02) rotate(139.17)"><g class="vayro-scatter-shape vayro-scatter-shape-98 vayro-scatter-rotate-98"><circle cx="0" cy="0" r="9.72" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-961.95 843.02) rotate(139.17)"><g class="vayro-scatter-shape vayro-scatter-shape-98 vayro-scatter-rotate-98"><circle cx="0" cy="0" r="9.72" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-99">
+      <g transform="translate(1119.11 888.85) rotate(310.27)"><g class="vayro-scatter-shape vayro-scatter-shape-99 vayro-scatter-rotate-99"><path d="M 0.00 -7.35 L 1.73 -2.38 L 6.99 -2.27 L 2.80 0.91 L 4.32 5.95 L 0.00 2.94 L -4.32 5.95 L -2.80 0.91 L -6.99 -2.27 L -1.73 -2.38 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-800.89 888.85) rotate(310.27)"><g class="vayro-scatter-shape vayro-scatter-shape-99 vayro-scatter-rotate-99"><path d="M 0.00 -7.35 L 1.73 -2.38 L 6.99 -2.27 L 2.80 0.91 L 4.32 5.95 L 0.00 2.94 L -4.32 5.95 L -2.80 0.91 L -6.99 -2.27 L -1.73 -2.38 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-100">
+      <g transform="translate(1168.01 837.90) rotate(48.84)"><g class="vayro-scatter-shape vayro-scatter-shape-100 vayro-scatter-rotate-100"><circle cx="0" cy="0" r="8.37" fill="#e3e386" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-751.99 837.90) rotate(48.84)"><g class="vayro-scatter-shape vayro-scatter-shape-100 vayro-scatter-rotate-100"><circle cx="0" cy="0" r="8.37" fill="#e3e386" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-101">
+      <g transform="translate(1353.86 904.68) rotate(7.82)"><g class="vayro-scatter-shape vayro-scatter-shape-101 vayro-scatter-rotate-101"><path d="M 0.00 -3.57 L 0.84 -1.16 L 3.39 -1.10 L 1.36 0.44 L 2.10 2.89 L 0.00 1.43 L -2.10 2.89 L -1.36 0.44 L -3.39 -1.10 L -0.84 -1.16 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-566.14 904.68) rotate(7.82)"><g class="vayro-scatter-shape vayro-scatter-shape-101 vayro-scatter-rotate-101"><path d="M 0.00 -3.57 L 0.84 -1.16 L 3.39 -1.10 L 1.36 0.44 L 2.10 2.89 L 0.00 1.43 L -2.10 2.89 L -1.36 0.44 L -3.39 -1.10 L -0.84 -1.16 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-102">
+      <g transform="translate(1508.63 915.65) rotate(318.75)"><g class="vayro-scatter-shape vayro-scatter-shape-102 vayro-scatter-rotate-102"><circle cx="0" cy="0" r="10.88" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-411.37 915.65) rotate(318.75)"><g class="vayro-scatter-shape vayro-scatter-shape-102 vayro-scatter-rotate-102"><circle cx="0" cy="0" r="10.88" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-103">
+      <g transform="translate(1566.02 836.50) rotate(289.50)"><g class="vayro-scatter-shape vayro-scatter-shape-103 vayro-scatter-rotate-103"><path d="M 0.00 -6.66 L 1.56 -2.15 L 6.33 -2.06 L 2.53 0.82 L 3.91 5.38 L 0.00 2.66 L -3.91 5.38 L -2.53 0.82 L -6.33 -2.06 L -1.56 -2.15 Z" fill="#c253b3" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-353.98 836.50) rotate(289.50)"><g class="vayro-scatter-shape vayro-scatter-shape-103 vayro-scatter-rotate-103"><path d="M 0.00 -6.66 L 1.56 -2.15 L 6.33 -2.06 L 2.53 0.82 L 3.91 5.38 L 0.00 2.66 L -3.91 5.38 L -2.53 0.82 L -6.33 -2.06 L -1.56 -2.15 Z" fill="#c253b3" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-104">
+      <g transform="translate(1739.38 872.00) rotate(87.60)"><g class="vayro-scatter-shape vayro-scatter-shape-104 vayro-scatter-rotate-104"><circle cx="0" cy="0" r="13.13" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.05" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-180.62 872.00) rotate(87.60)"><g class="vayro-scatter-shape vayro-scatter-shape-104 vayro-scatter-rotate-104"><circle cx="0" cy="0" r="13.13" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.05" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-105">
+      <g transform="translate(1808.52 863.68) rotate(266.76)"><g class="vayro-scatter-shape vayro-scatter-shape-105 vayro-scatter-rotate-105"><path d="M 0.00 -4.17 L 0.98 -1.35 L 3.96 -1.29 L 1.59 0.52 L 2.45 3.37 L 0.00 1.67 L -2.45 3.37 L -1.59 0.52 L -3.96 -1.29 L -0.98 -1.35 Z" fill="none" stroke="#f084ba" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-111.48 863.68) rotate(266.76)"><g class="vayro-scatter-shape vayro-scatter-shape-105 vayro-scatter-rotate-105"><path d="M 0.00 -4.17 L 0.98 -1.35 L 3.96 -1.29 L 1.59 0.52 L 2.45 3.37 L 0.00 1.67 L -2.45 3.37 L -1.59 0.52 L -3.96 -1.29 L -0.98 -1.35 Z" fill="none" stroke="#f084ba" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-106">
+      <g transform="translate(58.95 1016.43) rotate(284.55)"><g class="vayro-scatter-shape vayro-scatter-shape-106 vayro-scatter-rotate-106"><circle cx="0" cy="0" r="8.92" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-1861.05 1016.43) rotate(284.55)"><g class="vayro-scatter-shape vayro-scatter-shape-106 vayro-scatter-rotate-106"><circle cx="0" cy="0" r="8.92" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-107">
+      <g transform="translate(216.45 1042.44) rotate(155.23)"><g class="vayro-scatter-shape vayro-scatter-shape-107 vayro-scatter-rotate-107"><path d="M 0.00 -11.33 L 2.66 -3.67 L 10.77 -3.50 L 4.31 1.40 L 6.66 9.16 L 0.00 4.53 L -6.66 9.16 L -4.31 1.40 L -10.77 -3.50 L -2.66 -3.67 Z" fill="#c253b3" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-1703.55 1042.44) rotate(155.23)"><g class="vayro-scatter-shape vayro-scatter-shape-107 vayro-scatter-rotate-107"><path d="M 0.00 -11.33 L 2.66 -3.67 L 10.77 -3.50 L 4.31 1.40 L 6.66 9.16 L 0.00 4.53 L -6.66 9.16 L -4.31 1.40 L -10.77 -3.50 L -2.66 -3.67 Z" fill="#c253b3" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-108">
+      <g transform="translate(295.13 1008.68) rotate(283.53)"><g class="vayro-scatter-shape vayro-scatter-shape-108 vayro-scatter-rotate-108"><circle cx="0" cy="0" r="3.18" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-1624.87 1008.68) rotate(283.53)"><g class="vayro-scatter-shape vayro-scatter-shape-108 vayro-scatter-rotate-108"><circle cx="0" cy="0" r="3.18" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-109">
+      <g transform="translate(434.46 1046.64) rotate(71.09)"><g class="vayro-scatter-shape vayro-scatter-shape-109 vayro-scatter-rotate-109"><path d="M 0.00 -5.74 L 1.35 -1.86 L 5.46 -1.77 L 2.18 0.71 L 3.37 4.64 L 0.00 2.30 L -3.37 4.64 L -2.18 0.71 L -5.46 -1.77 L -1.35 -1.86 Z" fill="none" stroke="#f084ba" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-1485.54 1046.64) rotate(71.09)"><g class="vayro-scatter-shape vayro-scatter-shape-109 vayro-scatter-rotate-109"><path d="M 0.00 -5.74 L 1.35 -1.86 L 5.46 -1.77 L 2.18 0.71 L 3.37 4.64 L 0.00 2.30 L -3.37 4.64 L -2.18 0.71 L -5.46 -1.77 L -1.35 -1.86 Z" fill="none" stroke="#f084ba" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-110">
+      <g transform="translate(524.87 969.35) rotate(11.06)"><g class="vayro-scatter-shape vayro-scatter-shape-110 vayro-scatter-rotate-110"><circle cx="0" cy="0" r="5.88" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-1395.13 969.35) rotate(11.06)"><g class="vayro-scatter-shape vayro-scatter-shape-110 vayro-scatter-rotate-110"><circle cx="0" cy="0" r="5.88" fill="none" stroke="#6ed8eb" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-111">
+      <g transform="translate(686.86 1000.15) rotate(31.30)"><g class="vayro-scatter-shape vayro-scatter-shape-111 vayro-scatter-rotate-111"><path d="M 0.00 -11.94 L 2.81 -3.86 L 11.35 -3.69 L 4.54 1.48 L 7.02 9.66 L 0.00 4.77 L -7.02 9.66 L -4.54 1.48 L -11.35 -3.69 L -2.81 -3.86 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-1233.14 1000.15) rotate(31.30)"><g class="vayro-scatter-shape vayro-scatter-shape-111 vayro-scatter-rotate-111"><path d="M 0.00 -11.94 L 2.81 -3.86 L 11.35 -3.69 L 4.54 1.48 L 7.02 9.66 L 0.00 4.77 L -7.02 9.66 L -4.54 1.48 L -11.35 -3.69 L -2.81 -3.86 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-112">
+      <g transform="translate(796.78 999.82) rotate(227.08)"><g class="vayro-scatter-shape vayro-scatter-shape-112 vayro-scatter-rotate-112"><circle cx="0" cy="0" r="4.74" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-1123.22 999.82) rotate(227.08)"><g class="vayro-scatter-shape vayro-scatter-shape-112 vayro-scatter-rotate-112"><circle cx="0" cy="0" r="4.74" fill="none" stroke="#e3e386" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-113">
+      <g transform="translate(999.98 1002.99) rotate(187.55)"><g class="vayro-scatter-shape vayro-scatter-shape-113 vayro-scatter-rotate-113"><path d="M 0.00 -5.28 L 1.24 -1.71 L 5.02 -1.63 L 2.01 0.65 L 3.10 4.27 L 0.00 2.11 L -3.10 4.27 L -2.01 0.65 L -5.02 -1.63 L -1.24 -1.71 Z" fill="none" stroke="#f084ba" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-920.02 1002.99) rotate(187.55)"><g class="vayro-scatter-shape vayro-scatter-shape-113 vayro-scatter-rotate-113"><path d="M 0.00 -5.28 L 1.24 -1.71 L 5.02 -1.63 L 2.01 0.65 L 3.10 4.27 L 0.00 2.11 L -3.10 4.27 L -2.01 0.65 L -5.02 -1.63 L -1.24 -1.71 Z" fill="none" stroke="#f084ba" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-114">
+      <g transform="translate(1117.12 1058.83) rotate(81.10)"><g class="vayro-scatter-shape vayro-scatter-shape-114 vayro-scatter-rotate-114"><circle cx="0" cy="0" r="13.32" fill="#6ed8eb" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-802.88 1058.83) rotate(81.10)"><g class="vayro-scatter-shape vayro-scatter-shape-114 vayro-scatter-rotate-114"><circle cx="0" cy="0" r="13.32" fill="#6ed8eb" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-115">
+      <g transform="translate(1232.59 959.14) rotate(302.72)"><g class="vayro-scatter-shape vayro-scatter-shape-115 vayro-scatter-rotate-115"><path d="M 0.00 -3.48 L 0.82 -1.12 L 3.31 -1.07 L 1.32 0.43 L 2.04 2.81 L 0.00 1.39 L -2.04 2.81 L -1.32 0.43 L -3.31 -1.07 L -0.82 -1.12 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+      <g transform="translate(-687.41 959.14) rotate(302.72)"><g class="vayro-scatter-shape vayro-scatter-shape-115 vayro-scatter-rotate-115"><path d="M 0.00 -3.48 L 0.82 -1.12 L 3.31 -1.07 L 1.32 0.43 L 2.04 2.81 L 0.00 1.39 L -2.04 2.81 L -1.32 0.43 L -3.31 -1.07 L -0.82 -1.12 Z" fill="none" stroke="#c253b3" stroke-opacity="0.850" stroke-width="1.00" stroke-linejoin="round"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-116">
+      <g transform="translate(1390.81 1048.59) rotate(201.08)"><g class="vayro-scatter-shape vayro-scatter-shape-116 vayro-scatter-rotate-116"><circle cx="0" cy="0" r="12.90" fill="#e3e386" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-529.19 1048.59) rotate(201.08)"><g class="vayro-scatter-shape vayro-scatter-shape-116 vayro-scatter-rotate-116"><circle cx="0" cy="0" r="12.90" fill="#e3e386" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-117">
+      <g transform="translate(1462.18 1010.86) rotate(101.05)"><g class="vayro-scatter-shape vayro-scatter-shape-117 vayro-scatter-rotate-117"><path d="M 0.00 -6.17 L 1.45 -2.00 L 5.87 -1.91 L 2.35 0.76 L 3.63 4.99 L 0.00 2.47 L -3.63 4.99 L -2.35 0.76 L -5.87 -1.91 L -1.45 -2.00 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-457.82 1010.86) rotate(101.05)"><g class="vayro-scatter-shape vayro-scatter-shape-117 vayro-scatter-rotate-117"><path d="M 0.00 -6.17 L 1.45 -2.00 L 5.87 -1.91 L 2.35 0.76 L 3.63 4.99 L 0.00 2.47 L -3.63 4.99 L -2.35 0.76 L -5.87 -1.91 L -1.45 -2.00 Z" fill="#f084ba" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-118">
+      <g transform="translate(1630.24 991.52) rotate(21.87)"><g class="vayro-scatter-shape vayro-scatter-shape-118 vayro-scatter-rotate-118"><circle cx="0" cy="0" r="5.16" fill="#6ed8eb" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-289.76 991.52) rotate(21.87)"><g class="vayro-scatter-shape vayro-scatter-shape-118 vayro-scatter-rotate-118"><circle cx="0" cy="0" r="5.16" fill="#6ed8eb" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-119">
+      <g transform="translate(1710.80 1009.98) rotate(24.68)"><g class="vayro-scatter-shape vayro-scatter-shape-119 vayro-scatter-rotate-119"><path d="M 0.00 -6.30 L 1.48 -2.04 L 5.99 -1.95 L 2.39 0.78 L 3.70 5.09 L 0.00 2.52 L -3.70 5.09 L -2.39 0.78 L -5.99 -1.95 L -1.48 -2.04 Z" fill="#c253b3" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-209.20 1009.98) rotate(24.68)"><g class="vayro-scatter-shape vayro-scatter-shape-119 vayro-scatter-rotate-119"><path d="M 0.00 -6.30 L 1.48 -2.04 L 5.99 -1.95 L 2.39 0.78 L 3.70 5.09 L 0.00 2.52 L -3.70 5.09 L -2.39 0.78 L -5.99 -1.95 L -1.48 -2.04 Z" fill="#c253b3" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+    <g class="vayro-scatter-float-120">
+      <g transform="translate(1824.51 1044.49) rotate(79.90)"><g class="vayro-scatter-shape vayro-scatter-shape-120 vayro-scatter-rotate-120"><circle cx="0" cy="0" r="11.67" fill="#e3e386" fill-opacity="0.850" stroke="none"/></g></g>
+      <g transform="translate(-95.49 1044.49) rotate(79.90)"><g class="vayro-scatter-shape vayro-scatter-shape-120 vayro-scatter-rotate-120"><circle cx="0" cy="0" r="11.67" fill="#e3e386" fill-opacity="0.850" stroke="none"/></g></g>
+    </g>
+  </g>
+</svg>
