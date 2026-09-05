@@ -7,7 +7,7 @@
 <meta name="description" content="Hafsa Ijaz — Full-stack software developer. Portfolio, skills and projects.">
 
 
-<link rel="icon" href="x.webp" type="image/webp" sizes="32x32">
+<link rel="icon" href="1.webp" type="image/webp" sizes="32x32">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -32,6 +32,7 @@
     --maxw: 1120px;
     --radius: 14px;
   }
+  
 
   *{ box-sizing: border-box; }
   html{ scroll-behavior: smooth; }
@@ -39,7 +40,93 @@
     html{ scroll-behavior: auto; }
     *{ animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }
   }
-  
+ 
+/* ---------- LOADING SCREEN ---------- */
+
+#loader {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(43, 35, 35, 0.45);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  transition: opacity 0.8s ease, visibility 0.8s ease;
+}
+
+#loader img {
+  position: absolute;
+
+  width: 100px;
+  height: 100px;
+
+  object-fit: contain;
+
+  opacity: 0;
+  animation: showLogo 3s linear forwards;
+}
+
+/* Each logo appears one after another */
+
+#loader img:nth-child(1) {
+  animation-delay: 0.5s;
+}
+
+#loader img:nth-child(2) {
+  animation-delay: 1s;
+}
+
+#loader img:nth-child(3) {
+  animation-delay: 1.5s;
+}
+
+#loader img:nth-child(4) {
+  animation-delay: 2s;
+}
+
+
+/* Show each logo */
+
+@keyframes showLogo {
+  0% {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+
+  10% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  25% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  35% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+
+/* Hide loader */
+
+#loader.hide {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
   body {
   margin: 0;
   background: linear-gradient(
@@ -853,6 +940,7 @@ footer .wrap{
   form{
     padding: 26px;
   }
+  #loader img { width: 52px; height: 52px; }
 }
 
 
@@ -881,6 +969,7 @@ footer .wrap{
   .field textarea{
     font-size: 14px;
   }
+  #loader img { width: 30px; height: 30px; }
 
   form .btn-primary{
     width: 100%;
@@ -917,14 +1006,22 @@ footer .wrap{
 .mobile-menu a:last-child{
   border-bottom:none;
 }
+
+
 </style> 
 </head>
 <body>
-
+<!-- Loading Screen -->
+<div id="loader">
+  <img src="1.webp" alt="logo">
+  <img src="2.webp" alt="logo 1" >
+  <img src="3.webp" alt="logo 2">
+  <img src="4.webp" alt="logo 3">
+</div>
 <header>
   <div class="wrap nav">
     <a class="brand" href="#top">
-      <img src="x.webp" alt="logo" class="logo">
+      <img src="1.webp" alt="logo" class="logo">
       <span>HAFSA IJAZ</span>
     </a>
     <nav class="links">
@@ -1211,7 +1308,7 @@ The proposed system uses cybersecurity datasets such as Passive DNS data, perfor
 
   <div class="wrap">
     <div class="foot-brand">
-      <img src="x.webp" alt="logo">
+      <img src="1.webp" alt="logo">
       <span>© 2026 Hafsa Ijaz. All rights reserved.</span>
     </div>
     <div class="foot-links">
@@ -1274,7 +1371,14 @@ contactForm.addEventListener("submit", async function(event) {
   }
 });
 </script>
+<script>
+window.addEventListener("load", function () {
+  const loader = document.getElementById("loader");
 
-
+  setTimeout(function () {
+    loader.classList.add("hide");
+  }, 2500);
+});
+</script>
 </body>
 </html>
