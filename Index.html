@@ -11,6 +11,7 @@
 
   gtag('config', 'G-5R7V4RZH3H');
 </script>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Hafsa Ijaz — Software Developer</title>
@@ -99,6 +100,248 @@
   animation-delay: 2s;
 }
 
+/* =========================
+   DEVELOPER TERMINAL
+========================= */
+
+.terminal-toggle {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 1000;
+
+  padding: 12px 18px;
+  border: none;
+  border-radius: 999px;
+
+  background: #17141f;
+  color: white;
+
+  font-family: 'SFMono-Regular', Consolas, monospace;
+  font-size: 13px;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 12px 35px rgba(20, 10, 35, 0.25);
+
+  transition:
+    transform .2s ease,
+    box-shadow .2s ease;
+}
+
+.terminal-toggle:hover {
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 18px 40px rgba(20, 10, 35, 0.35);
+}
+
+.terminal-toggle span {
+  margin-right: 6px;
+}
+
+
+/* TERMINAL WINDOW */
+
+.terminal {
+  position: fixed;
+
+  right: 24px;
+  bottom: 80px;
+
+  width: min(650px, calc(100vw - 40px));
+  height: 390px;
+
+  z-index: 999;
+
+  background: #111018;
+  color: #d8d4e3;
+
+  border-radius: 14px;
+
+  overflow: hidden;
+
+  box-shadow:
+    0 30px 80px rgba(0, 0, 0, .35);
+
+  border: 1px solid rgba(255,255,255,.08);
+
+  opacity: 0;
+  transform: translateY(20px) scale(.97);
+
+  pointer-events: none;
+
+  transition:
+    opacity .25s ease,
+    transform .25s ease;
+}
+
+
+/* OPEN TERMINAL */
+
+.terminal.open {
+  opacity: 1;
+
+  transform:
+    translateY(0)
+    scale(1);
+
+  pointer-events: auto;
+}
+
+
+/* HEADER */
+
+.terminal-header {
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 14px;
+
+  background: #1b1824;
+
+  border-bottom:
+    1px solid rgba(255,255,255,.06);
+}
+
+.terminal-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  font-family:
+    'SFMono-Regular',
+    Consolas,
+    monospace;
+
+  font-size: 12px;
+
+  color: #aaa4b8;
+}
+
+.terminal-dot {
+  width: 9px;
+  height: 9px;
+
+  border-radius: 50%;
+}
+
+.terminal-dot.red {
+  background: #ff6b6b;
+}
+
+.terminal-dot.yellow {
+  background: #ffd166;
+}
+
+.terminal-dot.green {
+  background: #65e87f;
+}
+
+#terminalClose {
+  border: none;
+  background: transparent;
+
+  color: #aaa4b8;
+
+  font-size: 22px;
+
+  cursor: pointer;
+}
+
+
+/* OUTPUT */
+
+.terminal-output {
+  height: 300px;
+
+  padding: 18px;
+
+  overflow-y: auto;
+
+  font-family:
+    'SFMono-Regular',
+    Consolas,
+    monospace;
+
+  font-size: 13px;
+
+  line-height: 1.7;
+}
+
+.terminal-output strong {
+  color: #65e87f;
+}
+
+
+/* INPUT */
+
+.terminal-input-row {
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  padding: 12px 18px;
+
+  border-top:
+    1px solid rgba(255,255,255,.06);
+
+  font-family:
+    'SFMono-Regular',
+    Consolas,
+    monospace;
+
+  font-size: 13px;
+
+  color: #65e87f;
+}
+
+#terminalInput {
+  flex: 1;
+
+  border: none;
+  outline: none;
+
+  background: transparent;
+
+  color: white;
+
+  font-family:
+    'SFMono-Regular',
+    Consolas,
+    monospace;
+
+  font-size: 13px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 560px) {
+
+  .terminal {
+    right: 12px;
+    bottom: 75px;
+
+    width: calc(100vw - 24px);
+    height: 360px;
+  }
+
+  .terminal-output {
+    height: 270px;
+  }
+
+  .terminal-toggle {
+    right: 15px;
+    bottom: 15px;
+  }
+}
 
 /* Show each logo */
 
@@ -1036,6 +1279,7 @@ footer .wrap{
   <img src="4.webp" alt="logo 3">
 </div>
 <header>
+
   <div class="wrap nav">
     <a class="brand" href="#top">
       <img src="1.webp" alt="logo" class="logo">
@@ -1397,6 +1641,305 @@ window.addEventListener("load", function () {
   }, 2500);
 });
 </script>
+<script>
 
+/* =========================
+   DEVELOPER TERMINAL
+========================= */
+
+const terminal = document.getElementById("terminal");
+const terminalToggle =
+  document.getElementById("terminalToggle");
+
+const terminalClose =
+  document.getElementById("terminalClose");
+
+const terminalInput =
+  document.getElementById("terminalInput");
+
+const terminalOutput =
+  document.getElementById("terminalOutput");
+
+
+/* OPEN TERMINAL */
+
+terminalToggle.addEventListener("click", () => {
+
+  terminal.classList.add("open");
+
+  setTimeout(() => {
+    terminalInput.focus();
+  }, 200);
+
+});
+
+
+/* CLOSE TERMINAL */
+
+terminalClose.addEventListener("click", () => {
+
+  terminal.classList.remove("open");
+
+});
+
+
+/* PRINT TEXT */
+
+function terminalPrint(text) {
+
+  const line = document.createElement("div");
+
+  line.innerHTML = text;
+
+  terminalOutput.appendChild(line);
+
+  terminalOutput.scrollTop =
+    terminalOutput.scrollHeight;
+}
+
+
+/* COMMANDS */
+
+function runCommand(command) {
+
+  command = command.toLowerCase().trim();
+
+  if (command === "") {
+    return;
+  }
+
+
+  /* SHOW COMMAND */
+
+  terminalPrint(
+    `<span style="color:#65e87f">
+      visitor@hafsa:~$
+    </span> ${command}`
+  );
+
+
+  /* HELP */
+
+  if (command === "help") {
+
+    terminalPrint(`
+      <br>
+      <strong>Available commands:</strong><br><br>
+
+      about &nbsp;&nbsp;&nbsp; → About Hafsa<br>
+      skills &nbsp;&nbsp; → View technical skills<br>
+      projects → View projects<br>
+      contact &nbsp; → Contact information<br>
+      whoami &nbsp;&nbsp; → Who is Hafsa?<br>
+      clear &nbsp;&nbsp;&nbsp; → Clear terminal<br>
+      matrix &nbsp;&nbsp; → ???<br>
+      hack &nbsp;&nbsp;&nbsp;&nbsp; → ???<br>
+    `);
+
+  }
+
+
+  /* ABOUT */
+
+  else if (command === "about") {
+
+    terminalPrint(`
+      <br>
+      <strong>Hafsa Ijaz</strong><br><br>
+
+      Software Engineering student & developer
+      interested in Web Development,
+      Cybersecurity and AI.
+    `);
+
+  }
+
+
+  /* WHOAMI */
+
+  else if (command === "whoami") {
+
+    terminalPrint(`
+      <br>
+      <strong>HAFSA IJAZ</strong><br>
+      Software Developer<br>
+      Cybersecurity Explorer<br>
+      AI/ML Learner
+    `);
+
+  }
+
+
+  /* SKILLS */
+
+  else if (command === "skills") {
+
+    terminalPrint(`
+      <br>
+      <strong>Technical Skills</strong><br><br>
+
+      HTML<br>
+      CSS<br>
+      JavaScript<br>
+      React<br>
+      Node.js<br>
+      REST APIs<br>
+      Python<br>
+      Git / GitHub<br>
+      Figma<br>
+      AI / Machine Learning
+    `);
+
+  }
+
+
+  /* PROJECTS */
+
+  else if (command === "projects") {
+
+    terminalPrint(`
+      <br>
+      <strong>Projects</strong><br><br>
+
+      [01] Security Alert Fatigue<br>
+      [02] TaskFlow<br>
+      [03] Recipe Finder<br>
+      [04] Portfolio CMS
+    `);
+
+  }
+
+
+  /* CONTACT */
+
+  else if (command === "contact") {
+
+    terminalPrint(`
+      <br>
+      <strong>Contact</strong><br><br>
+
+      Email:<br>
+      hafsaijaz0206@gmail.com<br><br>
+
+      GitHub:<br>
+      github.com/hafsaij26
+    `);
+
+  }
+
+
+  /* MATRIX */
+
+  else if (command === "matrix") {
+
+    terminalPrint(`
+      <br>
+      <span style="color:#65e87f">
+      Wake up, developer...<br>
+      The portfolio is watching 👀<br><br>
+
+      01001000 01000001 01000110 01010011 01000001
+      </span>
+    `);
+
+  }
+
+
+  /* HACK */
+
+  else if (command === "hack") {
+
+    terminalPrint(`
+      <br>
+      <span style="color:#ff6b6b">
+      ACCESS DENIED.
+      </span><br><br>
+
+      Nice try 😎
+    `);
+
+  }
+
+
+  /* CLEAR */
+
+  else if (command === "clear") {
+
+    terminalOutput.innerHTML = "";
+
+  }
+
+
+  /* UNKNOWN */
+
+  else {
+
+    terminalPrint(`
+      <br>
+      Command not found:
+      <strong>${command}</strong><br>
+
+      Type <strong>help</strong>
+      to see available commands.
+    `);
+
+  }
+
+}
+/* ENTER KEY */
+
+terminalInput.addEventListener("keydown", (event) => {
+
+  if (event.key === "Enter") {
+
+    runCommand(terminalInput.value);
+
+    terminalInput.value = "";
+
+  }
+
+});
+
+</script>
+<!-- =========================
+     DEVELOPER TERMINAL
+========================= -->
+
+<button id="terminalToggle" class="terminal-toggle">
+  <span>⌘</span> Terminal
+</button>
+
+<div id="terminal" class="terminal">
+
+  <div class="terminal-header">
+    <div class="terminal-title">
+      <span class="terminal-dot red"></span>
+      <span class="terminal-dot yellow"></span>
+      <span class="terminal-dot green"></span>
+      hafsa@portfolio:~
+    </div>
+
+    <button id="terminalClose">×</button>
+  </div>
+
+  <div id="terminalOutput" class="terminal-output">
+    <div>Welcome to Hafsa's portfolio terminal.</div>
+    <div>Type <strong>help</strong> to see available commands.</div>
+    <br>
+  </div>
+
+  <div class="terminal-input-row">
+    <span>visitor@hafsa:~$</span>
+
+    <input
+      id="terminalInput"
+      type="text"
+      autocomplete="off"
+      spellcheck="false"
+      placeholder="type a command..."
+    >
+  </div>
+
+</div>
 </body>
 </html>
