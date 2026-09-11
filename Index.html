@@ -1512,6 +1512,40 @@ The proposed system uses cybersecurity datasets such as Passive DNS data, perfor
                 <a href="https://www.linkedin.com/in/hafsa-ijaz-084755387">LinkedIn</a>
               </div>
             </div>
+<button id="terminalToggle" class="terminal-toggle">
+  <span>⌘</span> Terminal
+</button>
+
+<div id="terminal" class="terminal">
+
+  <div class="terminal-header">
+    <div class="terminal-title">
+      <span class="terminal-dot red"></span>
+      <span class="terminal-dot yellow"></span>
+      <span class="terminal-dot green"></span>
+      hafsa@portfolio:~
+    </div>
+
+    <button id="terminalClose">×</button>
+  </div>
+
+  <div id="terminalOutput" class="terminal-output">
+    <div>Welcome to Hafsa's portfolio terminal.</div>
+    <div>Type <strong>help</strong> to see available commands.</div>
+    <br>
+  </div>
+
+  <div class="terminal-input-row">
+    <span>visitor@hafsa:~$</span>
+
+    <input
+      id="terminalInput"
+      type="text"
+      autocomplete="off"
+      spellcheck="false"
+      placeholder="type a command..."
+    >
+  </div>
 
 <form id="contactForm" action="https://api.web3forms.com/submit" method="POST" class="contact-form">
 
@@ -1647,6 +1681,7 @@ window.addEventListener("load", function () {
    DEVELOPER TERMINAL
 ========================= */
 
+document.addEventListener("DOMContentLoaded", function() {
 const terminal = document.getElementById("terminal");
 const terminalToggle =
   document.getElementById("terminalToggle");
@@ -1659,7 +1694,7 @@ const terminalInput =
 
 const terminalOutput =
   document.getElementById("terminalOutput");
-
+});
 
 /* OPEN TERMINAL */
 
@@ -1901,44 +1936,7 @@ terminalInput.addEventListener("keydown", (event) => {
 });
 
 </script>
-<!-- =========================
-     DEVELOPER TERMINAL
-========================= -->
 
-<button id="terminalToggle" class="terminal-toggle">
-  <span>⌘</span> Terminal
-</button>
-
-<div id="terminal" class="terminal">
-
-  <div class="terminal-header">
-    <div class="terminal-title">
-      <span class="terminal-dot red"></span>
-      <span class="terminal-dot yellow"></span>
-      <span class="terminal-dot green"></span>
-      hafsa@portfolio:~
-    </div>
-
-    <button id="terminalClose">×</button>
-  </div>
-
-  <div id="terminalOutput" class="terminal-output">
-    <div>Welcome to Hafsa's portfolio terminal.</div>
-    <div>Type <strong>help</strong> to see available commands.</div>
-    <br>
-  </div>
-
-  <div class="terminal-input-row">
-    <span>visitor@hafsa:~$</span>
-
-    <input
-      id="terminalInput"
-      type="text"
-      autocomplete="off"
-      spellcheck="false"
-      placeholder="type a command..."
-    >
-  </div>
 
 </div>
 </body>
